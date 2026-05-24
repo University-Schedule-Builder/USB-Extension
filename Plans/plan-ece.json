@@ -1,0 +1,2307 @@
+{
+  "studentName": "",
+  "gender": 0,
+  "major": "Electronics and Communications Engineering",
+  "major_ar": "هندسة الإلكترونيات والاتصالات",
+  "totalHours": 164,
+  "electiveGroups": {
+    "islamic": {
+      "label": "متطلب إسلامي اختياري",
+      "requiredHours": 6,
+      "totalSlots": 3
+    },
+    "free": {
+      "label": "مقرر اختياري حر",
+      "requiredHours": 3,
+      "totalSlots": 1
+    },
+    "electrical_engineering": {
+      "label": "اختياري هندسة كهربائية",
+      "requiredHours": 9,
+      "totalSlots": 3
+    }
+  },
+  "levels": [
+    {
+      "level_id": 1,
+      "level_label": "الأول",
+      "courses": [
+        {
+          "code": {
+            "ar": {
+              "rawCode": "نجم. 101",
+              "normalizedCode": "نجم-101",
+              "prefix": "نجم",
+              "number": "101"
+            },
+            "en": {
+              "rawCode": "نجم. 101",
+              "normalizedCode": "ENGL-101",
+              "prefix": "ENGL",
+              "number": "101"
+            }
+          },
+          "name": "English I",
+          "name_ar": "لغة إنجليزية 1",
+          "hours": 6,
+          "type": "إجبارى",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "ريض. 101",
+              "normalizedCode": "ريض-101",
+              "prefix": "ريض",
+              "number": "101"
+            },
+            "en": {
+              "rawCode": "ريض. 101",
+              "normalizedCode": "MATH-101",
+              "prefix": "MATH",
+              "number": "101"
+            }
+          },
+          "name": "Calculus I",
+          "name_ar": "تفاضل وتكامل 1",
+          "hours": 3,
+          "type": "إجبارى",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "دار - 101",
+              "normalizedCode": "دار-101",
+              "prefix": "دار",
+              "number": "101"
+            },
+            "en": {
+              "rawCode": "دار - 101",
+              "normalizedCode": "MGT-101",
+              "prefix": "MGT",
+              "number": "101"
+            }
+          },
+          "name": "Entrepreneurship",
+          "name_ar": "ريادة الأعمال",
+          "hours": 1,
+          "type": "إجبارى",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "عرب. 101",
+              "normalizedCode": "عرب-101",
+              "prefix": "عرب",
+              "number": "101"
+            },
+            "en": {
+              "rawCode": "عرب. 101",
+              "normalizedCode": "ARAB-101",
+              "prefix": "ARAB",
+              "number": "101"
+            }
+          },
+          "name": "Arabic Language Skills",
+          "name_ar": "المهارات اللغوية",
+          "hours": 2,
+          "type": "إجبارى",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "تصال . 101",
+              "normalizedCode": "تصال-101",
+              "prefix": "تصال",
+              "number": "101"
+            },
+            "en": {
+              "rawCode": "تصال . 101",
+              "normalizedCode": "LS-101",
+              "prefix": "LS",
+              "number": "101"
+            }
+          },
+          "name": "Learning Skills",
+          "name_ar": "مهارات التعلم",
+          "hours": 2,
+          "type": "إجبارى",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "سلم 101",
+              "normalizedCode": "سلم-101",
+              "prefix": "سلم",
+              "number": "101"
+            },
+            "en": {
+              "rawCode": "سلم 101",
+              "normalizedCode": "IC-101",
+              "prefix": "IC",
+              "number": "101"
+            }
+          },
+          "name": "Introduction to Islamic Culture",
+          "name_ar": "المدخل الى الثقافة الإسلامية",
+          "hours": 2,
+          "type": "إجبارى",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": null,
+          "sections": []
+        }
+      ]
+    },
+    {
+      "level_id": 2,
+      "level_label": "الثاني",
+      "courses": [
+        {
+          "code": {
+            "ar": {
+              "rawCode": "نجم. 102",
+              "normalizedCode": "نجم-102",
+              "prefix": "نجم",
+              "number": "102"
+            },
+            "en": {
+              "rawCode": "نجم. 102",
+              "normalizedCode": "ENGL-102",
+              "prefix": "ENGL",
+              "number": "102"
+            }
+          },
+          "name": "English Language II",
+          "name_ar": "لغة إنجليزية 2",
+          "hours": 6,
+          "type": "إجبارى",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "ENGL-101"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "فيز. 101",
+              "normalizedCode": "فيز-101",
+              "prefix": "فيز",
+              "number": "101"
+            },
+            "en": {
+              "rawCode": "فيز. 101",
+              "normalizedCode": "PHYS-101",
+              "prefix": "PHYS",
+              "number": "101"
+            }
+          },
+          "name": "General Physics I",
+          "name_ar": "فيزياء عامة 1",
+          "hours": 3,
+          "type": "إجبارى",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "MATH-101"
+            },
+            {
+              "code": "PHYS-103"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "فيز. 103",
+              "normalizedCode": "فيز-103",
+              "prefix": "فيز",
+              "number": "103"
+            },
+            "en": {
+              "rawCode": "فيز. 103",
+              "normalizedCode": "PHYS-103",
+              "prefix": "PHYS",
+              "number": "103"
+            }
+          },
+          "name": "Physics Laboratory I",
+          "name_ar": "معمل فيزياء 1",
+          "hours": 1,
+          "type": "إجبارى",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "MATH-101"
+            },
+            {
+              "code": "PHYS-101"
+            }
+          ],
+          "sections": [],
+          "isLab": true
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "ريض. 102",
+              "normalizedCode": "ريض-102",
+              "prefix": "ريض",
+              "number": "102"
+            },
+            "en": {
+              "rawCode": "ريض. 102",
+              "normalizedCode": "MATH-102",
+              "prefix": "MATH",
+              "number": "102"
+            }
+          },
+          "name": "Calculus II",
+          "name_ar": "تفاضل وتكامل 2",
+          "hours": 3,
+          "type": "إجبارى",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "MATH-101"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "عال- 111",
+              "normalizedCode": "عال-111",
+              "prefix": "عال",
+              "number": "111"
+            },
+            "en": {
+              "rawCode": "عال- 111",
+              "normalizedCode": "CS-111",
+              "prefix": "CS",
+              "number": "111"
+            }
+          },
+          "name": "Computer Skills",
+          "name_ar": "مهارات حاسب",
+          "hours": 3,
+          "type": "إجبارى",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "بدن- 101",
+              "normalizedCode": "بدن-101",
+              "prefix": "بدن",
+              "number": "101"
+            },
+            "en": {
+              "rawCode": "بدن- 101",
+              "normalizedCode": "PE-101",
+              "prefix": "PE",
+              "number": "101"
+            }
+          },
+          "name": "Physical Education",
+          "name_ar": "تربية بدنية",
+          "hours": 1,
+          "type": "إجبارى",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": null,
+          "sections": []
+        }
+      ]
+    },
+    {
+      "level_id": 3,
+      "level_label": "الثالث",
+      "courses": [
+        {
+          "code": {
+            "ar": {
+              "rawCode": "ريض- 201",
+              "normalizedCode": "ريض-201",
+              "prefix": "ريض",
+              "number": "201"
+            },
+            "en": {
+              "rawCode": "ريض- 201",
+              "normalizedCode": "MATH-201",
+              "prefix": "MATH",
+              "number": "201"
+            }
+          },
+          "name": "Calculus III",
+          "name_ar": "تفاضل وتكامل 3",
+          "hours": 3,
+          "type": "إجبارى",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "MATH-102"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "كيم- 101",
+              "normalizedCode": "كيم-101",
+              "prefix": "كيم",
+              "number": "101"
+            },
+            "en": {
+              "rawCode": "كيم- 101",
+              "normalizedCode": "CHEM-101",
+              "prefix": "CHEM",
+              "number": "101"
+            }
+          },
+          "name": "General Chemistry I",
+          "name_ar": "كيمياء عامة 1",
+          "hours": 4,
+          "type": "إجبارى",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "نجم- 201",
+              "normalizedCode": "نجم-201",
+              "prefix": "نجم",
+              "number": "201"
+            },
+            "en": {
+              "rawCode": "نجم- 201",
+              "normalizedCode": "ENGL-201",
+              "prefix": "ENGL",
+              "number": "201"
+            }
+          },
+          "name": "Intro. to Academic Discourse",
+          "name_ar": "مدخل لتحليل النصوص",
+          "hours": 3,
+          "type": "إجبارى",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "ENGL-102"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "فيز. 202",
+              "normalizedCode": "فيز-202",
+              "prefix": "فيز",
+              "number": "202"
+            },
+            "en": {
+              "rawCode": "فيز. 202",
+              "normalizedCode": "PHYS-202",
+              "prefix": "PHYS",
+              "number": "202"
+            }
+          },
+          "name": "General Physics II",
+          "name_ar": "فيزياء 2",
+          "hours": 3,
+          "type": "إجبارى",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "PHYS-101"
+            },
+            {
+              "code": "PHYS-203"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "فيز.203",
+              "normalizedCode": "فيز-203",
+              "prefix": "فيز",
+              "number": "203"
+            },
+            "en": {
+              "rawCode": "فيز.203",
+              "normalizedCode": "PHYS-203",
+              "prefix": "PHYS",
+              "number": "203"
+            }
+          },
+          "name": "Physics Laboratory II",
+          "name_ar": "معمل فيزياء 2",
+          "hours": 1,
+          "type": "إجبارى",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "MATH-101"
+            },
+            {
+              "code": "PHYS-202"
+            }
+          ],
+          "sections": [],
+          "isLab": true
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "عرب . 202",
+              "normalizedCode": "عرب-202",
+              "prefix": "عرب",
+              "number": "202"
+            },
+            "en": {
+              "rawCode": "عرب . 202",
+              "normalizedCode": "ARAB-202",
+              "prefix": "ARAB",
+              "number": "202"
+            }
+          },
+          "name": "Arabic Editing",
+          "name_ar": "التحرير العربي",
+          "hours": 2,
+          "type": "إجبارى",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "ARAB-101"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "سلمxx",
+              "normalizedCode": "سلم-xxx",
+              "prefix": "سلم",
+              "number": "xxx"
+            },
+            "en": {
+              "rawCode": "سلمxx",
+              "normalizedCode": "IC-XXX",
+              "prefix": "IC",
+              "number": "xxx"
+            }
+          },
+          "name": "Islamic Elective I",
+          "name_ar": "1 اختياري إسلامي",
+          "hours": 2,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "islamic",
+          "prerequisites": [
+            {
+              "code": "IC-101"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "سلم 102",
+              "normalizedCode": "سلم-102",
+              "prefix": "سلم",
+              "number": "102"
+            },
+            "en": {
+              "rawCode": "سلم 102",
+              "normalizedCode": "IC-102",
+              "prefix": "IC",
+              "number": "102"
+            }
+          },
+          "name": "Islam and society",
+          "name_ar": "الإسلام والمجتمع",
+          "hours": 2,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "islamic",
+          "prerequisites": [
+            {
+              "code": "IC-101"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "سلم 306",
+              "normalizedCode": "سلم-306",
+              "prefix": "سلم",
+              "number": "306"
+            },
+            "en": {
+              "rawCode": "سلم 306",
+              "normalizedCode": "IC-306",
+              "prefix": "IC",
+              "number": "306"
+            }
+          },
+          "name": "Islamic Economic System",
+          "name_ar": "النظام الاقتصادي في الإسلام",
+          "hours": 2,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "islamic",
+          "prerequisites": [
+            {
+              "code": "IC-101"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "سلم 205",
+              "normalizedCode": "سلم-205",
+              "prefix": "سلم",
+              "number": "205"
+            },
+            "en": {
+              "rawCode": "سلم 205",
+              "normalizedCode": "IC-205",
+              "prefix": "IC",
+              "number": "205"
+            }
+          },
+          "name": "Family in Islam",
+          "name_ar": "الأسرة في الإسلام",
+          "hours": 2,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "islamic",
+          "prerequisites": [
+            {
+              "code": "IC-101"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "سلم 410",
+              "normalizedCode": "سلم-410",
+              "prefix": "سلم",
+              "number": "410"
+            },
+            "en": {
+              "rawCode": "سلم 410",
+              "normalizedCode": "IC-410",
+              "prefix": "IC",
+              "number": "410"
+            }
+          },
+          "name": "Biography of the Prophet",
+          "name_ar": "السيرة النبوية",
+          "hours": 2,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "islamic",
+          "prerequisites": [
+            {
+              "code": "IC-101"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "سلم 408",
+              "normalizedCode": "سلم-408",
+              "prefix": "سلم",
+              "number": "408"
+            },
+            "en": {
+              "rawCode": "سلم 408",
+              "normalizedCode": "IC-408",
+              "prefix": "IC",
+              "number": "408"
+            }
+          },
+          "name": "Islamic Political System",
+          "name_ar": "النظام السياسي في الإسلام",
+          "hours": 2,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "islamic",
+          "prerequisites": [
+            {
+              "code": "IC-101"
+            }
+          ],
+          "sections": []
+        }
+      ]
+    },
+    {
+      "level_id": 4,
+      "level_label": "الرابع",
+      "courses": [
+        {
+          "code": {
+            "ar": {
+              "rawCode": "ريض- 260",
+              "normalizedCode": "ريض-260",
+              "prefix": "ريض",
+              "number": "260"
+            },
+            "en": {
+              "rawCode": "ريض- 260",
+              "normalizedCode": "MATH-260",
+              "prefix": "MATH",
+              "number": "260"
+            }
+          },
+          "name": "Linear Algebra & Differential Eqs.",
+          "name_ar": "جبر خطي ومعادلات تفاضلية",
+          "hours": 3,
+          "type": "إجبارى",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "MATH-102"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "احص- 219",
+              "normalizedCode": "احص-219",
+              "prefix": "احص",
+              "number": "219"
+            },
+            "en": {
+              "rawCode": "احص- 219",
+              "normalizedCode": "STAT-219",
+              "prefix": "STAT",
+              "number": "219"
+            }
+          },
+          "name": "Prob. & Stat. For Eng. & Sc.",
+          "name_ar": "احتمالات وإحصاء للهندسة والعلوم",
+          "hours": 3,
+          "type": "إجبارى",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "MATH-102"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "نجم. 202",
+              "normalizedCode": "نجم-202",
+              "prefix": "نجم",
+              "number": "202"
+            },
+            "en": {
+              "rawCode": "نجم. 202",
+              "normalizedCode": "ENGL-202",
+              "prefix": "ENGL",
+              "number": "202"
+            }
+          },
+          "name": "Intro to Report Writing",
+          "name_ar": "مقدمة الي كتابة المقال",
+          "hours": 3,
+          "type": "إجبارى",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "ENGL-201"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "عال- 101",
+              "normalizedCode": "عال-101",
+              "prefix": "عال",
+              "number": "101"
+            },
+            "en": {
+              "rawCode": "عال- 101",
+              "normalizedCode": "CS-101",
+              "prefix": "CS",
+              "number": "101"
+            }
+          },
+          "name": "Computer Programming I",
+          "name_ar": "برمجة حاسب 1",
+          "hours": 4,
+          "type": "إجبارى",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "MATH-101"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "هص- 199",
+              "normalizedCode": "هص-199",
+              "prefix": "هص",
+              "number": "199"
+            },
+            "en": {
+              "rawCode": "هص- 199",
+              "normalizedCode": "IE-199",
+              "prefix": "IE",
+              "number": "199"
+            }
+          },
+          "name": "Introduction to engineering and design",
+          "name_ar": "مقدمة في التصميم الهندسي",
+          "hours": 3,
+          "type": "إجبارى",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "سلم xxx",
+              "normalizedCode": "سلم-xxx",
+              "prefix": "سلم",
+              "number": "xxx"
+            },
+            "en": {
+              "rawCode": "سلم xxx",
+              "normalizedCode": "IC-XXX",
+              "prefix": "IC",
+              "number": "xxx"
+            }
+          },
+          "name": "Islamic Elective II",
+          "name_ar": "اختياري إسلامي 2",
+          "hours": 2,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "islamic",
+          "prerequisites": [
+            {
+              "code": "IC-101"
+            }
+          ],
+          "sections": []
+        }
+      ]
+    },
+    {
+      "level_id": 5,
+      "level_label": "الخامس",
+      "courses": [
+        {
+          "code": {
+            "ar": {
+              "rawCode": "هال- 202",
+              "normalizedCode": "هال-202",
+              "prefix": "هال",
+              "number": "202"
+            },
+            "en": {
+              "rawCode": "هال- 202",
+              "normalizedCode": "COE-202",
+              "prefix": "COE",
+              "number": "202"
+            }
+          },
+          "name": "Digital Logic Design",
+          "name_ar": "تصميم منطق رقمي",
+          "hours": 3,
+          "type": "إجبارى",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "PHYS-202"
+            },
+            {
+              "code": "COE-203"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "هال- 203",
+              "normalizedCode": "هال-203",
+              "prefix": "هال",
+              "number": "203"
+            },
+            "en": {
+              "rawCode": "هال- 203",
+              "normalizedCode": "COE-203",
+              "prefix": "COE",
+              "number": "203"
+            }
+          },
+          "name": "Digital Logic Design Lab",
+          "name_ar": "مختبر تصميم منطق رقمي",
+          "hours": 1,
+          "type": "إجبارى",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "PHYS-202"
+            },
+            {
+              "code": "COE-202"
+            }
+          ],
+          "sections": [],
+          "isLab": true
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "كهر- 204",
+              "normalizedCode": "كهر-204",
+              "prefix": "كهر",
+              "number": "204"
+            },
+            "en": {
+              "rawCode": "كهر- 204",
+              "normalizedCode": "EE-204",
+              "prefix": "EE",
+              "number": "204"
+            }
+          },
+          "name": "Engineering Electromagnetic-I",
+          "name_ar": "الهندسة الكهرومغناطيسية 1",
+          "hours": 3,
+          "type": "إجبارى",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "PHYS-202"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "نجل- 214",
+              "normalizedCode": "نجل-214",
+              "prefix": "نجل",
+              "number": "214"
+            },
+            "en": {
+              "rawCode": "نجل- 214",
+              "normalizedCode": "ENGL-214",
+              "prefix": "ENGL",
+              "number": "214"
+            }
+          },
+          "name": "Academic & Professional Comm.",
+          "name_ar": "مهارات اتصال",
+          "hours": 3,
+          "type": "إجبارى",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "ENGL-202"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "كهر- 202",
+              "normalizedCode": "كهر-202",
+              "prefix": "كهر",
+              "number": "202"
+            },
+            "en": {
+              "rawCode": "كهر- 202",
+              "normalizedCode": "EE-202",
+              "prefix": "EE",
+              "number": "202"
+            }
+          },
+          "name": "Electric Circuits I",
+          "name_ar": "دوائر كهربية 1",
+          "hours": 3,
+          "type": "إجبارى",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "MATH-102"
+            },
+            {
+              "code": "PHYS-202"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "كهر- 206",
+              "normalizedCode": "كهر-206",
+              "prefix": "كهر",
+              "number": "206"
+            },
+            "en": {
+              "rawCode": "كهر- 206",
+              "normalizedCode": "EE-206",
+              "prefix": "EE",
+              "number": "206"
+            }
+          },
+          "name": "Electric I Laboratory",
+          "name_ar": "معمل دوائر كهربية 1",
+          "hours": 1,
+          "type": "إجبارى",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "EE-202"
+            },
+            {
+              "code": "EE-206"
+            }
+          ],
+          "sections": [],
+          "isLab": true
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "سلم xxx",
+              "normalizedCode": "سلم-xxx",
+              "prefix": "سلم",
+              "number": "xxx"
+            },
+            "en": {
+              "rawCode": "سلم xxx",
+              "normalizedCode": "IC-XXX",
+              "prefix": "IC",
+              "number": "xxx"
+            }
+          },
+          "name": "Islamic Elective III",
+          "name_ar": "اختياري إسلامي 3",
+          "hours": 2,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "islamic",
+          "prerequisites": [
+            {
+              "code": "IC-101"
+            }
+          ],
+          "sections": []
+        }
+      ]
+    },
+    {
+      "level_id": 6,
+      "level_label": "السادس",
+      "courses": [
+        {
+          "code": {
+            "ar": {
+              "rawCode": "كهر- 203",
+              "normalizedCode": "كهر-203",
+              "prefix": "كهر",
+              "number": "203"
+            },
+            "en": {
+              "rawCode": "كهر- 203",
+              "normalizedCode": "EE-203",
+              "prefix": "EE",
+              "number": "203"
+            }
+          },
+          "name": "Electric Circuits-II",
+          "name_ar": "دوائر الكهربائية 2",
+          "hours": 3,
+          "type": "إجبارى",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "EE-202"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "كهر- 205",
+              "normalizedCode": "كهر-205",
+              "prefix": "كهر",
+              "number": "205"
+            },
+            "en": {
+              "rawCode": "كهر- 205",
+              "normalizedCode": "EE-205",
+              "prefix": "EE",
+              "number": "205"
+            }
+          },
+          "name": "Engineering Electromagnetic-II",
+          "name_ar": "الهندسة الكهرومغناطيسية 2",
+          "hours": 3,
+          "type": "إجبارى",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "EE-204"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "كهر- 207",
+              "normalizedCode": "كهر-207",
+              "prefix": "كهر",
+              "number": "207"
+            },
+            "en": {
+              "rawCode": "كهر- 207",
+              "normalizedCode": "EE-207",
+              "prefix": "EE",
+              "number": "207"
+            }
+          },
+          "name": "Electric II Laboratory",
+          "name_ar": "معمل دوائر كهربية 2",
+          "hours": 1,
+          "type": "إجبارى",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "EE-206"
+            }
+          ],
+          "sections": [],
+          "isLab": true
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "كهر- 220",
+              "normalizedCode": "كهر-220",
+              "prefix": "كهر",
+              "number": "220"
+            },
+            "en": {
+              "rawCode": "كهر- 220",
+              "normalizedCode": "EE-220",
+              "prefix": "EE",
+              "number": "220"
+            }
+          },
+          "name": "Electronics I",
+          "name_ar": "إلكترونيات 1",
+          "hours": 3,
+          "type": "إجبارى",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "PHYS-202"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "كهر- 221",
+              "normalizedCode": "كهر-221",
+              "prefix": "كهر",
+              "number": "221"
+            },
+            "en": {
+              "rawCode": "كهر- 221",
+              "normalizedCode": "EE-221",
+              "prefix": "EE",
+              "number": "221"
+            }
+          },
+          "name": "Electronics I Laboratory",
+          "name_ar": "معمل إلكترونيات 1",
+          "hours": 1,
+          "type": "إجبارى",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "EE-220"
+            }
+          ],
+          "sections": [],
+          "isLab": true
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "كهر- 270",
+              "normalizedCode": "كهر-270",
+              "prefix": "كهر",
+              "number": "270"
+            },
+            "en": {
+              "rawCode": "كهر- 270",
+              "normalizedCode": "EE-270",
+              "prefix": "EE",
+              "number": "270"
+            }
+          },
+          "name": "Signal & System Analysis",
+          "name_ar": "تحليل الإشارات والنظام",
+          "hours": 3,
+          "type": "إجبارى",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "EE-202"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "هص- 332",
+              "normalizedCode": "هص-332",
+              "prefix": "هص",
+              "number": "332"
+            },
+            "en": {
+              "rawCode": "هص- 332",
+              "normalizedCode": "IE-332",
+              "prefix": "IE",
+              "number": "332"
+            }
+          },
+          "name": "Engineering Economy",
+          "name_ar": "الاقتصاد الهندسي",
+          "hours": 3,
+          "type": "إجبارى",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "MATH-102"
+            }
+          ],
+          "sections": []
+        }
+      ]
+    },
+    {
+      "level_id": 7,
+      "level_label": "السابع",
+      "courses": [
+        {
+          "code": {
+            "ar": {
+              "rawCode": "هال- 304",
+              "normalizedCode": "هال-304",
+              "prefix": "هال",
+              "number": "304"
+            },
+            "en": {
+              "rawCode": "هال- 304",
+              "normalizedCode": "COE-304",
+              "prefix": "COE",
+              "number": "304"
+            }
+          },
+          "name": "Introduction to Embedded Systems",
+          "name_ar": "مقدمة للأنظمة المدمجة",
+          "hours": 4,
+          "type": "إجبارى",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "COE-202"
+            },
+            {
+              "code": "CS-101"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "كهر- 330",
+              "normalizedCode": "كهر-330",
+              "prefix": "كهر",
+              "number": "330"
+            },
+            "en": {
+              "rawCode": "كهر- 330",
+              "normalizedCode": "EE-330",
+              "prefix": "EE",
+              "number": "330"
+            }
+          },
+          "name": "Communication Principles",
+          "name_ar": "مبادئ الاتصالات",
+          "hours": 3,
+          "type": "إجبارى",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "EE-270"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "كهر- 320",
+              "normalizedCode": "كهر-320",
+              "prefix": "كهر",
+              "number": "320"
+            },
+            "en": {
+              "rawCode": "كهر- 320",
+              "normalizedCode": "EE-320",
+              "prefix": "EE",
+              "number": "320"
+            }
+          },
+          "name": "Electronics-II",
+          "name_ar": "إلكترونيات 2",
+          "hours": 3,
+          "type": "إجبارى",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "EE-220"
+            },
+            {
+              "code": "EE-321"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "كهر- 321",
+              "normalizedCode": "كهر-321",
+              "prefix": "كهر",
+              "number": "321"
+            },
+            "en": {
+              "rawCode": "كهر- 321",
+              "normalizedCode": "EE-321",
+              "prefix": "EE",
+              "number": "321"
+            }
+          },
+          "name": "Electronics II Laboratory",
+          "name_ar": "معمل الكترونيات 2",
+          "hours": 1,
+          "type": "إجبارى",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "EE-320"
+            }
+          ],
+          "sections": [],
+          "isLab": true
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "كهر- 380",
+              "normalizedCode": "كهر-380",
+              "prefix": "كهر",
+              "number": "380"
+            },
+            "en": {
+              "rawCode": "كهر- 380",
+              "normalizedCode": "EE-380",
+              "prefix": "EE",
+              "number": "380"
+            }
+          },
+          "name": "Electric Energy Engineering",
+          "name_ar": "هندسة الطاقة الكهربائية",
+          "hours": 3,
+          "type": "إجبارى",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "EE-203"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "XX xxx",
+              "normalizedCode": "حرة-1",
+              "prefix": "حرة",
+              "number": "1"
+            },
+            "en": {
+              "rawCode": "XX xxx",
+              "normalizedCode": "FREE-1",
+              "prefix": "FREE",
+              "number": "1"
+            }
+          },
+          "name": "Free Elective",
+          "name_ar": "مقرر اختياري حر",
+          "hours": 3,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "free",
+          "prerequisites": null,
+          "sections": []
+        }
+      ]
+    },
+    {
+      "level_id": 8,
+      "level_label": "الثامن",
+      "courses": [
+        {
+          "code": {
+            "ar": {
+              "rawCode": "كهر- 301",
+              "normalizedCode": "كهر-301",
+              "prefix": "كهر",
+              "number": "301"
+            },
+            "en": {
+              "rawCode": "كهر- 301",
+              "normalizedCode": "EE-301",
+              "prefix": "EE",
+              "number": "301"
+            }
+          },
+          "name": "Information Theory and Coding",
+          "name_ar": "نظرية المعلومات والترميز",
+          "hours": 3,
+          "type": "إجبارى",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "STAT-219"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "كهر- 302",
+              "normalizedCode": "كهر-302",
+              "prefix": "كهر",
+              "number": "302"
+            },
+            "en": {
+              "rawCode": "كهر- 302",
+              "normalizedCode": "EE-302",
+              "prefix": "EE",
+              "number": "302"
+            }
+          },
+          "name": "Modeling and Simulation Laboratory",
+          "name_ar": "مختبر النمذجة والمحاكاة",
+          "hours": 1,
+          "type": "إجبارى",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "EE-270"
+            }
+          ],
+          "sections": [],
+          "isLab": true
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "كهر- 350",
+              "normalizedCode": "كهر-350",
+              "prefix": "كهر",
+              "number": "350"
+            },
+            "en": {
+              "rawCode": "كهر- 350",
+              "normalizedCode": "EE-350",
+              "prefix": "EE",
+              "number": "350"
+            }
+          },
+          "name": "Automatic Control",
+          "name_ar": "التحكم التلقائي",
+          "hours": 3,
+          "type": "إجبارى",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "EE-270"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "كهر- 351",
+              "normalizedCode": "كهر-351",
+              "prefix": "كهر",
+              "number": "351"
+            },
+            "en": {
+              "rawCode": "كهر- 351",
+              "normalizedCode": "EE-351",
+              "prefix": "EE",
+              "number": "351"
+            }
+          },
+          "name": "Control and Instrumentation Laboratory",
+          "name_ar": "مختبر التحكم والأجهزة",
+          "hours": 1,
+          "type": "إجبارى",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "EE-350"
+            }
+          ],
+          "sections": [],
+          "isLab": true
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "كهر- 370",
+              "normalizedCode": "كهر-370",
+              "prefix": "كهر",
+              "number": "370"
+            },
+            "en": {
+              "rawCode": "كهر- 370",
+              "normalizedCode": "EE-370",
+              "prefix": "EE",
+              "number": "370"
+            }
+          },
+          "name": "Digital Signal Processing",
+          "name_ar": "معالجة الإشارات الرقمية",
+          "hours": 3,
+          "type": "إجبارى",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "EE-270"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "كهر- 430",
+              "normalizedCode": "كهر-430",
+              "prefix": "كهر",
+              "number": "430"
+            },
+            "en": {
+              "rawCode": "كهر- 430",
+              "normalizedCode": "EE-430",
+              "prefix": "EE",
+              "number": "430"
+            }
+          },
+          "name": "Digital Communications",
+          "name_ar": "اتصالات رقمية",
+          "hours": 3,
+          "type": "إجبارى",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "EE-330"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "خلق-303",
+              "normalizedCode": "خلق-303",
+              "prefix": "خلق",
+              "number": "303"
+            },
+            "en": {
+              "rawCode": "خلق-303",
+              "normalizedCode": "ETHC-303",
+              "prefix": "ETHC",
+              "number": "303"
+            }
+          },
+          "name": "Professional Ethics",
+          "name_ar": "الأخلاق المهنية",
+          "hours": 2,
+          "type": "إجبارى",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": null,
+          "sections": []
+        }
+      ]
+    },
+    {
+      "level_id": 9,
+      "level_label": "التاسع",
+      "courses": [
+        {
+          "code": {
+            "ar": {
+              "rawCode": "كهر- 435",
+              "normalizedCode": "كهر-435",
+              "prefix": "كهر",
+              "number": "435"
+            },
+            "en": {
+              "rawCode": "كهر- 435",
+              "normalizedCode": "EE-435",
+              "prefix": "EE",
+              "number": "435"
+            }
+          },
+          "name": "Optical Communications",
+          "name_ar": "الاتصالات البصرية",
+          "hours": 2,
+          "type": "إجبارى",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "EE-205"
+            },
+            {
+              "code": "EE-330"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "كهر- 420",
+              "normalizedCode": "كهر-420",
+              "prefix": "كهر",
+              "number": "420"
+            },
+            "en": {
+              "rawCode": "كهر- 420",
+              "normalizedCode": "EE-420",
+              "prefix": "EE",
+              "number": "420"
+            }
+          },
+          "name": "VLSI Circuit Design",
+          "name_ar": "تصميم الدوائر المتكاملة ذات النطاق الواسع",
+          "hours": 3,
+          "type": "إجبارى",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "EE-320"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "كهر- 498",
+              "normalizedCode": "كهر-498",
+              "prefix": "كهر",
+              "number": "498"
+            },
+            "en": {
+              "rawCode": "كهر- 498",
+              "normalizedCode": "EE-498",
+              "prefix": "EE",
+              "number": "498"
+            }
+          },
+          "name": "Design Project-I",
+          "name_ar": "مشروع التخرج 1",
+          "hours": 3,
+          "type": "إجبارى",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "129_HOURS"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "كهر- 421",
+              "normalizedCode": "كهر-421",
+              "prefix": "كهر",
+              "number": "421"
+            },
+            "en": {
+              "rawCode": "كهر- 421",
+              "normalizedCode": "EE-421",
+              "prefix": "EE",
+              "number": "421"
+            }
+          },
+          "name": "VLSI Design Laboratory",
+          "name_ar": "مختبر تصميم الدوائر المتكاملة ذات النطاق الواسع",
+          "hours": 1,
+          "type": "إجبارى",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "EE-420"
+            }
+          ],
+          "sections": [],
+          "isLab": true
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "كهر- 431",
+              "normalizedCode": "كهر-431",
+              "prefix": "كهر",
+              "number": "431"
+            },
+            "en": {
+              "rawCode": "كهر- 431",
+              "normalizedCode": "EE-431",
+              "prefix": "EE",
+              "number": "431"
+            }
+          },
+          "name": "Wave Propagation and Antennas",
+          "name_ar": "انتشار الموجات والهوائيات",
+          "hours": 3,
+          "type": "إجبارى",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "EE-205"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "كهر- 437",
+              "normalizedCode": "كهر-437",
+              "prefix": "كهر",
+              "number": "437"
+            },
+            "en": {
+              "rawCode": "كهر- 437",
+              "normalizedCode": "EE-437",
+              "prefix": "EE",
+              "number": "437"
+            }
+          },
+          "name": "Communication Laboratory",
+          "name_ar": "مختبر الاتصالات",
+          "hours": 1,
+          "type": "إجبارى",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "EE-430"
+            }
+          ],
+          "sections": [],
+          "isLab": true
+        }
+      ]
+    },
+    {
+      "level_id": 10,
+      "level_label": "العاشر",
+      "courses": [
+        {
+          "code": {
+            "ar": {
+              "rawCode": "هال- 499",
+              "normalizedCode": "هال-499",
+              "prefix": "هال",
+              "number": "499"
+            },
+            "en": {
+              "rawCode": "هال- 499",
+              "normalizedCode": "COE-499",
+              "prefix": "COE",
+              "number": "499"
+            }
+          },
+          "name": "Design Project II",
+          "name_ar": "مشروع التخرج 2",
+          "hours": 3,
+          "type": "إجبارى",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "EE-498"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "كهر-",
+              "normalizedCode": "كهر-xxx",
+              "prefix": "كهر",
+              "number": "xxx"
+            },
+            "en": {
+              "rawCode": "كهر-",
+              "normalizedCode": "EE-XXX",
+              "prefix": "EE",
+              "number": "xxx"
+            }
+          },
+          "name": "Elective Electrical Engineering I",
+          "name_ar": "اختياري هندسة كهربائية 1",
+          "hours": 3,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "electrical_engineering",
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "كهر-",
+              "normalizedCode": "كهر-xxx",
+              "prefix": "كهر",
+              "number": "xxx"
+            },
+            "en": {
+              "rawCode": "كهر-",
+              "normalizedCode": "EE-XXX",
+              "prefix": "EE",
+              "number": "xxx"
+            }
+          },
+          "name": "Elective Electrical Engineering II",
+          "name_ar": "اختياري هندسة كهربائية 2",
+          "hours": 3,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "electrical_engineering",
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "كهر-",
+              "normalizedCode": "كهر-xxx",
+              "prefix": "كهر",
+              "number": "xxx"
+            },
+            "en": {
+              "rawCode": "كهر-",
+              "normalizedCode": "EE-XXX",
+              "prefix": "EE",
+              "number": "xxx"
+            }
+          },
+          "name": "Elective Electrical Engineering III",
+          "name_ar": "اختياري هندسة كهربائية 3",
+          "hours": 3,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "electrical_engineering",
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "هص- 412",
+              "normalizedCode": "هص-412",
+              "prefix": "هص",
+              "number": "412"
+            },
+            "en": {
+              "rawCode": "هص- 412",
+              "normalizedCode": "IE-412",
+              "prefix": "IE",
+              "number": "412"
+            }
+          },
+          "name": "Project Management",
+          "name_ar": "إدارة المشاريع",
+          "hours": 3,
+          "type": "إجبارى",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "IE-332"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "هص- 999",
+              "normalizedCode": "هص-999",
+              "prefix": "هص",
+              "number": "999"
+            },
+            "en": {
+              "rawCode": "هص- 999",
+              "normalizedCode": "IE-999",
+              "prefix": "IE",
+              "number": "999"
+            }
+          },
+          "name": "Practical Training",
+          "name_ar": "التدريب العملي",
+          "hours": 1,
+          "type": "إجبارى",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "كهر- 423",
+              "normalizedCode": "كهر-423",
+              "prefix": "كهر",
+              "number": "423"
+            },
+            "en": {
+              "rawCode": "كهر- 423",
+              "normalizedCode": "EE-423",
+              "prefix": "EE",
+              "number": "423"
+            }
+          },
+          "name": "Optoelectronic Devices and Systems",
+          "name_ar": "الأجهزة والأنظمة الكهروضوئية",
+          "hours": 3,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "electrical_engineering",
+          "prerequisites": [
+            {
+              "code": "EE-320"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "كهر- 424",
+              "normalizedCode": "كهر-424",
+              "prefix": "كهر",
+              "number": "424"
+            },
+            "en": {
+              "rawCode": "كهر- 424",
+              "normalizedCode": "EE-424",
+              "prefix": "EE",
+              "number": "424"
+            }
+          },
+          "name": "Power Electronics",
+          "name_ar": "إلكترونيات القدرة",
+          "hours": 3,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "electrical_engineering",
+          "prerequisites": [
+            {
+              "code": "EE-320"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "كهر- 433",
+              "normalizedCode": "كهر-433",
+              "prefix": "كهر",
+              "number": "433"
+            },
+            "en": {
+              "rawCode": "كهر- 433",
+              "normalizedCode": "EE-433",
+              "prefix": "EE",
+              "number": "433"
+            }
+          },
+          "name": "Wireless Communications",
+          "name_ar": "الاتصالات اللاسلكية",
+          "hours": 3,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "electrical_engineering",
+          "prerequisites": [
+            {
+              "code": "EE-205"
+            },
+            {
+              "code": "EE-330"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "كهر- 434",
+              "normalizedCode": "كهر-434",
+              "prefix": "كهر",
+              "number": "434"
+            },
+            "en": {
+              "rawCode": "كهر- 434",
+              "normalizedCode": "EE-434",
+              "prefix": "EE",
+              "number": "434"
+            }
+          },
+          "name": "Satellite Communications",
+          "name_ar": "الاتصالات الفضائية",
+          "hours": 3,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "electrical_engineering",
+          "prerequisites": [
+            {
+              "code": "EE-205"
+            },
+            {
+              "code": "EE-330"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "كهر- 450",
+              "normalizedCode": "كهر-450",
+              "prefix": "كهر",
+              "number": "450"
+            },
+            "en": {
+              "rawCode": "كهر- 450",
+              "normalizedCode": "EE-450",
+              "prefix": "EE",
+              "number": "450"
+            }
+          },
+          "name": "Automatic Control Applications",
+          "name_ar": "تطبيقات التحكم الآلي",
+          "hours": 3,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "electrical_engineering",
+          "prerequisites": [
+            {
+              "code": "EE-350"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "كهر- 429",
+              "normalizedCode": "كهر-429",
+              "prefix": "كهر",
+              "number": "429"
+            },
+            "en": {
+              "rawCode": "كهر- 429",
+              "normalizedCode": "EE-429",
+              "prefix": "EE",
+              "number": "429"
+            }
+          },
+          "name": "Selected Topics in Electronics",
+          "name_ar": "موضوعات مختارة في الإلكترونيات",
+          "hours": 3,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "electrical_engineering",
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "كهر- 439",
+              "normalizedCode": "كهر-439",
+              "prefix": "كهر",
+              "number": "439"
+            },
+            "en": {
+              "rawCode": "كهر- 439",
+              "normalizedCode": "EE-439",
+              "prefix": "EE",
+              "number": "439"
+            }
+          },
+          "name": "Selected Topics in Communications",
+          "name_ar": "موضوعات مختارة في الاتصالات",
+          "hours": 3,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "electrical_engineering",
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "كهر- 441",
+              "normalizedCode": "كهر-441",
+              "prefix": "كهر",
+              "number": "441"
+            },
+            "en": {
+              "rawCode": "كهر- 441",
+              "normalizedCode": "EE-441",
+              "prefix": "EE",
+              "number": "441"
+            }
+          },
+          "name": "Artificial Intelligence",
+          "name_ar": "الذكاء الصناعي",
+          "hours": 3,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "electrical_engineering",
+          "prerequisites": [
+            {
+              "code": "STAT-219"
+            },
+            {
+              "code": "CS-101"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "كهر- 442",
+              "normalizedCode": "كهر-442",
+              "prefix": "كهر",
+              "number": "442"
+            },
+            "en": {
+              "rawCode": "كهر- 442",
+              "normalizedCode": "EE-442",
+              "prefix": "EE",
+              "number": "442"
+            }
+          },
+          "name": "Machine Learning",
+          "name_ar": "تعلم الآلة",
+          "hours": 3,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "electrical_engineering",
+          "prerequisites": [
+            {
+              "code": "STAT-219"
+            },
+            {
+              "code": "CS-101"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "كهر- 443",
+              "normalizedCode": "كهر-443",
+              "prefix": "كهر",
+              "number": "443"
+            },
+            "en": {
+              "rawCode": "كهر- 443",
+              "normalizedCode": "EE-443",
+              "prefix": "EE",
+              "number": "443"
+            }
+          },
+          "name": "Introduction to Neural Networks",
+          "name_ar": "مقدمة في الشبكات العصبية",
+          "hours": 3,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "electrical_engineering",
+          "prerequisites": [
+            {
+              "code": "STAT-219"
+            },
+            {
+              "code": "CS-101"
+            }
+          ],
+          "sections": []
+        }
+      ]
+    }
+  ]
+}

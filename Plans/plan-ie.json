@@ -1,0 +1,2065 @@
+{
+  "studentName": "",
+  "gender": 0,
+  "major": "Industrial Engineering Program",
+  "major_ar": "برنامج الهندسة الصناعية",
+  "totalHours": 165,
+  "electiveGroups": {
+    "islamic": {
+      "label": "اختياري إسلامي",
+      "requiredHours": 6,
+      "totalSlots": 3
+    },
+    "ie_elective": {
+      "label": "هندسة صناعية اختياري",
+      "requiredHours": 3,
+      "totalSlots": 1
+    }
+  },
+  "levels": [
+    {
+      "level_id": 1,
+      "level_label": "الأول",
+      "courses": [
+        {
+          "code": {
+            "ar": {
+              "rawCode": "101.نجل",
+              "normalizedCode": "نجل-101",
+              "prefix": "نجل",
+              "number": "101"
+            },
+            "en": {
+              "rawCode": "101.نجل",
+              "normalizedCode": "ENGL-101",
+              "prefix": "ENGL",
+              "number": "101"
+            }
+          },
+          "name": "English I",
+          "name_ar": "لغة إنجليزية 1",
+          "hours": 6,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "101.ريض",
+              "normalizedCode": "ريض-101",
+              "prefix": "ريض",
+              "number": "101"
+            },
+            "en": {
+              "rawCode": "101.ريض",
+              "normalizedCode": "MATH-101",
+              "prefix": "MATH",
+              "number": "101"
+            }
+          },
+          "name": "Calculus I",
+          "name_ar": "تفاضل وتكامل 1",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "101.إتصال",
+              "normalizedCode": "إتصال-101",
+              "prefix": "إتصال",
+              "number": "101"
+            },
+            "en": {
+              "rawCode": "101.إتصال",
+              "normalizedCode": "LS-101",
+              "prefix": "LS",
+              "number": "101"
+            }
+          },
+          "name": "Learning skills",
+          "name_ar": "مهارات التعلم",
+          "hours": 2,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "101.دار",
+              "normalizedCode": "دار-101",
+              "prefix": "دار",
+              "number": "101"
+            },
+            "en": {
+              "rawCode": "101.دار",
+              "normalizedCode": "MGT-101",
+              "prefix": "MGT",
+              "number": "101"
+            }
+          },
+          "name": "Entrepreneurship",
+          "name_ar": "ريادة الأعمال",
+          "hours": 1,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "101.عرب",
+              "normalizedCode": "عرب-101",
+              "prefix": "عرب",
+              "number": "101"
+            },
+            "en": {
+              "rawCode": "101.عرب",
+              "normalizedCode": "ARAB-101",
+              "prefix": "ARAB",
+              "number": "101"
+            }
+          },
+          "name": "Arabic Language",
+          "name_ar": "المهارات اللغوية",
+          "hours": 2,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "101 سلم",
+              "normalizedCode": "سلم-101",
+              "prefix": "سلم",
+              "number": "101"
+            },
+            "en": {
+              "rawCode": "101 سلم",
+              "normalizedCode": "IC-101",
+              "prefix": "IC",
+              "number": "101"
+            }
+          },
+          "name": "Islamic Culture",
+          "name_ar": "المدخل إلى الثقافة الإسلامية",
+          "hours": 2,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": null,
+          "sections": []
+        }
+      ]
+    },
+    {
+      "level_id": 2,
+      "level_label": "الثاني",
+      "courses": [
+        {
+          "code": {
+            "ar": {
+              "rawCode": "102.نجم",
+              "normalizedCode": "نجم-102",
+              "prefix": "نجم",
+              "number": "102"
+            },
+            "en": {
+              "rawCode": "102.نجم",
+              "normalizedCode": "ENGL-102",
+              "prefix": "ENGL",
+              "number": "102"
+            }
+          },
+          "name": "English II",
+          "name_ar": "لغة إنجليزية 2",
+          "hours": 6,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "ENGL-101"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "101.فيز",
+              "normalizedCode": "فيز-101",
+              "prefix": "فيز",
+              "number": "101"
+            },
+            "en": {
+              "rawCode": "101.فيز",
+              "normalizedCode": "PHYS-101",
+              "prefix": "PHYS",
+              "number": "101"
+            }
+          },
+          "name": "General Physics I",
+          "name_ar": "فيزياء عامة 1",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "MATH-101"
+            },
+            {
+              "code": "PHYS-103"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "103.فيز",
+              "normalizedCode": "فيز-103",
+              "prefix": "فيز",
+              "number": "103"
+            },
+            "en": {
+              "rawCode": "103.فيز",
+              "normalizedCode": "PHYS-103",
+              "prefix": "PHYS",
+              "number": "103"
+            }
+          },
+          "name": "Physics Lab I",
+          "name_ar": "معمل فيزياء 1",
+          "hours": 1,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "MATH-101"
+            },
+            {
+              "code": "PHYS-101"
+            }
+          ],
+          "sections": [],
+          "isLab": true
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "111-عال",
+              "normalizedCode": "عال-111",
+              "prefix": "عال",
+              "number": "111"
+            },
+            "en": {
+              "rawCode": "111-عال",
+              "normalizedCode": "CS-111",
+              "prefix": "CS",
+              "number": "111"
+            }
+          },
+          "name": "Computer Skills",
+          "name_ar": "مهارات حاسب",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "102.ريض",
+              "normalizedCode": "ريض-102",
+              "prefix": "ريض",
+              "number": "102"
+            },
+            "en": {
+              "rawCode": "102.ريض",
+              "normalizedCode": "MATH-102",
+              "prefix": "MATH",
+              "number": "102"
+            }
+          },
+          "name": "Calculus II",
+          "name_ar": "تفاضل وتكامل 2",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "MATH-101"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "101-بدن",
+              "normalizedCode": "بدن-101",
+              "prefix": "بدن",
+              "number": "101"
+            },
+            "en": {
+              "rawCode": "101-بدن",
+              "normalizedCode": "PE-101",
+              "prefix": "PE",
+              "number": "101"
+            }
+          },
+          "name": "Physical Educ.",
+          "name_ar": "تربية بدنية",
+          "hours": 1,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": null,
+          "sections": []
+        }
+      ]
+    },
+    {
+      "level_id": 3,
+      "level_label": "الثالث",
+      "courses": [
+        {
+          "code": {
+            "ar": {
+              "rawCode": "202.فيز",
+              "normalizedCode": "فيز-202",
+              "prefix": "فيز",
+              "number": "202"
+            },
+            "en": {
+              "rawCode": "202.فيز",
+              "normalizedCode": "PHYS-202",
+              "prefix": "PHYS",
+              "number": "202"
+            }
+          },
+          "name": "General Physics II",
+          "name_ar": "فيزياء عامة 2",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "PHYS-101"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "203.فيز",
+              "normalizedCode": "فيز-203",
+              "prefix": "فيز",
+              "number": "203"
+            },
+            "en": {
+              "rawCode": "203.فيز",
+              "normalizedCode": "PHYS-203",
+              "prefix": "PHYS",
+              "number": "203"
+            }
+          },
+          "name": "Physics Lab II",
+          "name_ar": "معمل فيزياء 2",
+          "hours": 1,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "MATH-101"
+            },
+            {
+              "code": "PHYS-202"
+            }
+          ],
+          "sections": [],
+          "isLab": true
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "201.نجم",
+              "normalizedCode": "نجم-201",
+              "prefix": "نجم",
+              "number": "201"
+            },
+            "en": {
+              "rawCode": "201.نجم",
+              "normalizedCode": "ENGL-201",
+              "prefix": "ENGL",
+              "number": "201"
+            }
+          },
+          "name": "Intro.to Academic Discourse",
+          "name_ar": "مدخل في تحليل النصوص",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "ENGL-102"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "101-كيم",
+              "normalizedCode": "كيم-101",
+              "prefix": "كيم",
+              "number": "101"
+            },
+            "en": {
+              "rawCode": "101-كيم",
+              "normalizedCode": "CHEM-101",
+              "prefix": "CHEM",
+              "number": "101"
+            }
+          },
+          "name": "General Chemistry I",
+          "name_ar": "كيمياء عامة 1",
+          "hours": 4,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "201.ريض",
+              "normalizedCode": "ريض-201",
+              "prefix": "ريض",
+              "number": "201"
+            },
+            "en": {
+              "rawCode": "201.ريض",
+              "normalizedCode": "MATH-201",
+              "prefix": "MATH",
+              "number": "201"
+            }
+          },
+          "name": "Calculus III",
+          "name_ar": "تفاضل وتكامل 3",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "MATH-102"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "xxx سلم",
+              "normalizedCode": "سلم-xxx",
+              "prefix": "سلم",
+              "number": "xxx"
+            },
+            "en": {
+              "rawCode": "xxx سلم",
+              "normalizedCode": "IC-XXX",
+              "prefix": "IC",
+              "number": "xxx"
+            }
+          },
+          "name": "Islamic Elective I",
+          "name_ar": "اختياري إسلامي 1",
+          "hours": 2,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "islamic",
+          "prerequisites": [
+            {
+              "code": "IC-101"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "202.عرب",
+              "normalizedCode": "عرب-202",
+              "prefix": "عرب",
+              "number": "202"
+            },
+            "en": {
+              "rawCode": "202.عرب",
+              "normalizedCode": "ARAB-202",
+              "prefix": "ARAB",
+              "number": "202"
+            }
+          },
+          "name": "Arabic Editing",
+          "name_ar": "التحرير العربي",
+          "hours": 2,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "ARAB-101"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "102-سلم",
+              "normalizedCode": "سلم-102",
+              "prefix": "سلم",
+              "number": "102"
+            },
+            "en": {
+              "rawCode": "102-سلم",
+              "normalizedCode": "IC-102",
+              "prefix": "IC",
+              "number": "102"
+            }
+          },
+          "name": "Islam and Community Building",
+          "name_ar": "الإسلام وبناء المجتمع",
+          "hours": 2,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "islamic",
+          "prerequisites": [
+            {
+              "code": "IC-101"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "306-سلم",
+              "normalizedCode": "سلم-306",
+              "prefix": "سلم",
+              "number": "306"
+            },
+            "en": {
+              "rawCode": "306-سلم",
+              "normalizedCode": "IC-306",
+              "prefix": "IC",
+              "number": "306"
+            }
+          },
+          "name": "Islamic Economic System",
+          "name_ar": "النظام الاقتصادي في الإسلام",
+          "hours": 2,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "islamic",
+          "prerequisites": [
+            {
+              "code": "IC-101"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "205-سلم",
+              "normalizedCode": "سلم-205",
+              "prefix": "سلم",
+              "number": "205"
+            },
+            "en": {
+              "rawCode": "205-سلم",
+              "normalizedCode": "IC-205",
+              "prefix": "IC",
+              "number": "205"
+            }
+          },
+          "name": "Family in Islam",
+          "name_ar": "الأسرة في الإسلام",
+          "hours": 2,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "islamic",
+          "prerequisites": [
+            {
+              "code": "IC-101"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "410-سلم",
+              "normalizedCode": "سلم-410",
+              "prefix": "سلم",
+              "number": "410"
+            },
+            "en": {
+              "rawCode": "410-سلم",
+              "normalizedCode": "IC-410",
+              "prefix": "IC",
+              "number": "410"
+            }
+          },
+          "name": "Biography of the Prophet",
+          "name_ar": "السيرة النبوية",
+          "hours": 2,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "islamic",
+          "prerequisites": [
+            {
+              "code": "IC-101"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "408-سلم",
+              "normalizedCode": "سلم-408",
+              "prefix": "سلم",
+              "number": "408"
+            },
+            "en": {
+              "rawCode": "408-سلم",
+              "normalizedCode": "IC-408",
+              "prefix": "IC",
+              "number": "408"
+            }
+          },
+          "name": "Islamic Political System",
+          "name_ar": "النظام السياسي في الإسلام",
+          "hours": 2,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "islamic",
+          "prerequisites": [
+            {
+              "code": "IC-101"
+            }
+          ],
+          "sections": []
+        }
+      ]
+    },
+    {
+      "level_id": 4,
+      "level_label": "الرابع",
+      "courses": [
+        {
+          "code": {
+            "ar": {
+              "rawCode": "101-عال",
+              "normalizedCode": "عال-101",
+              "prefix": "عال",
+              "number": "101"
+            },
+            "en": {
+              "rawCode": "101-عال",
+              "normalizedCode": "CS-101",
+              "prefix": "CS",
+              "number": "101"
+            }
+          },
+          "name": "Computer Programming I",
+          "name_ar": "برمجة حاسب 1",
+          "hours": 4,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "MATH-101"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "199-هص",
+              "normalizedCode": "هص-199",
+              "prefix": "هص",
+              "number": "199"
+            },
+            "en": {
+              "rawCode": "199-هص",
+              "normalizedCode": "IE-199",
+              "prefix": "IE",
+              "number": "199"
+            }
+          },
+          "name": "Introduction to engineering and design",
+          "name_ar": "مقدمة في التصميم الهندسي",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "202.نجم",
+              "normalizedCode": "نجم-202",
+              "prefix": "نجم",
+              "number": "202"
+            },
+            "en": {
+              "rawCode": "202.نجم",
+              "normalizedCode": "ENGL-202",
+              "prefix": "ENGL",
+              "number": "202"
+            }
+          },
+          "name": "Intro to Report Writing",
+          "name_ar": "مقدمة الى كتابة المقال",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "ENGL-201"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "219-احص",
+              "normalizedCode": "احص-219",
+              "prefix": "احص",
+              "number": "219"
+            },
+            "en": {
+              "rawCode": "219-احص",
+              "normalizedCode": "STAT-219",
+              "prefix": "STAT",
+              "number": "219"
+            }
+          },
+          "name": "Prob. & Stat. For Eng. & Sc.",
+          "name_ar": "احتمالات واحصاء للهندسة والعلوم",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "MATH-102"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "xxx سلم",
+              "normalizedCode": "سلم-xxx",
+              "prefix": "سلم",
+              "number": "xxx"
+            },
+            "en": {
+              "rawCode": "xxx سلم",
+              "normalizedCode": "IC-XXX",
+              "prefix": "IC",
+              "number": "xxx"
+            }
+          },
+          "name": "Islamic Elective II",
+          "name_ar": "اختياري إسلامي 2",
+          "hours": 2,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "islamic",
+          "prerequisites": [
+            {
+              "code": "IC-101"
+            }
+          ],
+          "sections": []
+        }
+      ]
+    },
+    {
+      "level_id": 5,
+      "level_label": "الخامس",
+      "courses": [
+        {
+          "code": {
+            "ar": {
+              "rawCode": "261.ريض",
+              "normalizedCode": "ريض-261",
+              "prefix": "ريض",
+              "number": "261"
+            },
+            "en": {
+              "rawCode": "261.ريض",
+              "normalizedCode": "MATH-261",
+              "prefix": "MATH",
+              "number": "261"
+            }
+          },
+          "name": "Linear Algebra",
+          "name_ar": "الجبر الخطي",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "MATH-102"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "214-نجل",
+              "normalizedCode": "نجل-214",
+              "prefix": "نجل",
+              "number": "214"
+            },
+            "en": {
+              "rawCode": "214-نجل",
+              "normalizedCode": "ENGL-214",
+              "prefix": "ENGL",
+              "number": "214"
+            }
+          },
+          "name": "Academic & Professional Comm.",
+          "name_ar": "مهارات اتصال",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "ENGL-202"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "201-هم",
+              "normalizedCode": "هم-201",
+              "prefix": "هم",
+              "number": "201"
+            },
+            "en": {
+              "rawCode": "201-هم",
+              "normalizedCode": "ME-201",
+              "prefix": "ME",
+              "number": "201"
+            }
+          },
+          "name": "Engineering mechanics",
+          "name_ar": "الميكانيكا الهندسية",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "MATH-102"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "209-كهر",
+              "normalizedCode": "كهر-209",
+              "prefix": "كهر",
+              "number": "209"
+            },
+            "en": {
+              "rawCode": "209-كهر",
+              "normalizedCode": "EE-209",
+              "prefix": "EE",
+              "number": "209"
+            }
+          },
+          "name": "Fundamental of electrical system",
+          "name_ar": "أساسيات النظام الكهربائي",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "PHYS-202"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "250-هص",
+              "normalizedCode": "هص-250",
+              "prefix": "هص",
+              "number": "250"
+            },
+            "en": {
+              "rawCode": "250-هص",
+              "normalizedCode": "IE-250",
+              "prefix": "IE",
+              "number": "250"
+            }
+          },
+          "name": "Manufacturing materials",
+          "name_ar": "تصنيع المواد",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "PHYS-202"
+            },
+            {
+              "code": "CHEM-101"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "201-هص",
+              "normalizedCode": "هص-201",
+              "prefix": "هص",
+              "number": "201"
+            },
+            "en": {
+              "rawCode": "201-هص",
+              "normalizedCode": "IE-201",
+              "prefix": "IE",
+              "number": "201"
+            }
+          },
+          "name": "Computer Aided Drafting (CAD)",
+          "name_ar": "التصميم باستخدام الحاسوب",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": null,
+          "sections": []
+        }
+      ]
+    },
+    {
+      "level_id": 6,
+      "level_label": "السادس",
+      "courses": [
+        {
+          "code": {
+            "ar": {
+              "rawCode": "361.ريض",
+              "normalizedCode": "ريض-361",
+              "prefix": "ريض",
+              "number": "361"
+            },
+            "en": {
+              "rawCode": "361.ريض",
+              "normalizedCode": "MATH-361",
+              "prefix": "MATH",
+              "number": "361"
+            }
+          },
+          "name": "Differential Eqs.",
+          "name_ar": "المعادلات التفاضلية",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "MATH-102"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "311-هص",
+              "normalizedCode": "هص-311",
+              "prefix": "هص",
+              "number": "311"
+            },
+            "en": {
+              "rawCode": "311-هص",
+              "normalizedCode": "IE-311",
+              "prefix": "IE",
+              "number": "311"
+            }
+          },
+          "name": "Operation Management I",
+          "name_ar": "إدارة العمليات 1",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "STAT-219"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "321-هص",
+              "normalizedCode": "هص-321",
+              "prefix": "هص",
+              "number": "321"
+            },
+            "en": {
+              "rawCode": "321-هص",
+              "normalizedCode": "IE-321",
+              "prefix": "IE",
+              "number": "321"
+            }
+          },
+          "name": "Operation Research I",
+          "name_ar": "بحوث العمليات 1",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "MATH-261"
+            },
+            {
+              "code": "CS-101"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "331-هص",
+              "normalizedCode": "هص-331",
+              "prefix": "هص",
+              "number": "331"
+            },
+            "en": {
+              "rawCode": "331-هص",
+              "normalizedCode": "IE-331",
+              "prefix": "IE",
+              "number": "331"
+            }
+          },
+          "name": "Design of experiment",
+          "name_ar": "تصميم التجربة",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "STAT-219"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "351-هص",
+              "normalizedCode": "هص-351",
+              "prefix": "هص",
+              "number": "351"
+            },
+            "en": {
+              "rawCode": "351-هص",
+              "normalizedCode": "IE-351",
+              "prefix": "IE",
+              "number": "351"
+            }
+          },
+          "name": "Manufacturing processes I",
+          "name_ar": "عمليات التصنيع 1",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "ME-201"
+            },
+            {
+              "code": "IE-250"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "332-هص",
+              "normalizedCode": "هص-332",
+              "prefix": "هص",
+              "number": "332"
+            },
+            "en": {
+              "rawCode": "332-هص",
+              "normalizedCode": "IE-332",
+              "prefix": "IE",
+              "number": "332"
+            }
+          },
+          "name": "Engineering economy",
+          "name_ar": "الاقتصاد الهندسي",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "MATH-102"
+            }
+          ],
+          "sections": []
+        }
+      ]
+    },
+    {
+      "level_id": 7,
+      "level_label": "السابع",
+      "courses": [
+        {
+          "code": {
+            "ar": {
+              "rawCode": "312-هص",
+              "normalizedCode": "هص-312",
+              "prefix": "هص",
+              "number": "312"
+            },
+            "en": {
+              "rawCode": "312-هص",
+              "normalizedCode": "IE-312",
+              "prefix": "IE",
+              "number": "312"
+            }
+          },
+          "name": "Operation management II",
+          "name_ar": "إدارة العمليات 2",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "IE-311"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "322-هص",
+              "normalizedCode": "هص-322",
+              "prefix": "هص",
+              "number": "322"
+            },
+            "en": {
+              "rawCode": "322-هص",
+              "normalizedCode": "IE-322",
+              "prefix": "IE",
+              "number": "322"
+            }
+          },
+          "name": "Operation Research II",
+          "name_ar": "بحوث العمليات 2",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "IE-321"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "333-هص",
+              "normalizedCode": "هص-333",
+              "prefix": "هص",
+              "number": "333"
+            },
+            "en": {
+              "rawCode": "333-هص",
+              "normalizedCode": "IE-333",
+              "prefix": "IE",
+              "number": "333"
+            }
+          },
+          "name": "Maintenance & reliability Engineering",
+          "name_ar": "الصيانة والاعتمادية الهندسية",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "STAT-219"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "334-هص",
+              "normalizedCode": "هص-334",
+              "prefix": "هص",
+              "number": "334"
+            },
+            "en": {
+              "rawCode": "334-هص",
+              "normalizedCode": "IE-334",
+              "prefix": "IE",
+              "number": "334"
+            }
+          },
+          "name": "Quality Engineering I",
+          "name_ar": "هندسة الجودة 1",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "IE-331"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "352-هص",
+              "normalizedCode": "هص-352",
+              "prefix": "هص",
+              "number": "352"
+            },
+            "en": {
+              "rawCode": "352-هص",
+              "normalizedCode": "IE-352",
+              "prefix": "IE",
+              "number": "352"
+            }
+          },
+          "name": "Manufacturing processes II",
+          "name_ar": "عمليات التصنيع 2",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "IE-351"
+            },
+            {
+              "code": "EE-209"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "412-هص",
+              "normalizedCode": "هص-412",
+              "prefix": "هص",
+              "number": "412"
+            },
+            "en": {
+              "rawCode": "412-هص",
+              "normalizedCode": "IE-412",
+              "prefix": "IE",
+              "number": "412"
+            }
+          },
+          "name": "Project Management",
+          "name_ar": "ادارة مشاريع",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "IE-332"
+            }
+          ],
+          "sections": []
+        }
+      ]
+    },
+    {
+      "level_id": 8,
+      "level_label": "الثامن",
+      "courses": [
+        {
+          "code": {
+            "ar": {
+              "rawCode": "423-هص",
+              "normalizedCode": "هص-423",
+              "prefix": "هص",
+              "number": "423"
+            },
+            "en": {
+              "rawCode": "423-هص",
+              "normalizedCode": "IE-423",
+              "prefix": "IE",
+              "number": "423"
+            }
+          },
+          "name": "Industrial system simulation",
+          "name_ar": "محاكاة النظم الصناعية",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "IE-322"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "442-هص",
+              "normalizedCode": "هص-442",
+              "prefix": "هص",
+              "number": "442"
+            },
+            "en": {
+              "rawCode": "442-هص",
+              "normalizedCode": "IE-442",
+              "prefix": "IE",
+              "number": "442"
+            }
+          },
+          "name": "Human Factor Engineering",
+          "name_ar": "هندسة العوامل البشرية",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "IE-331"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "451-هص",
+              "normalizedCode": "هص-451",
+              "prefix": "هص",
+              "number": "451"
+            },
+            "en": {
+              "rawCode": "451-هص",
+              "normalizedCode": "IE-451",
+              "prefix": "IE",
+              "number": "451"
+            }
+          },
+          "name": "CADCAM",
+          "name_ar": "التصميم والتصنيع بمساعدة الحاسوب",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "IE-352"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "461-هص",
+              "normalizedCode": "هص-461",
+              "prefix": "هص",
+              "number": "461"
+            },
+            "en": {
+              "rawCode": "461-هص",
+              "normalizedCode": "IE-461",
+              "prefix": "IE",
+              "number": "461"
+            }
+          },
+          "name": "Industrial automation",
+          "name_ar": "الأتمتة الصناعية",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "EE-209"
+            },
+            {
+              "code": "CS-101"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "441-هص",
+              "normalizedCode": "هص-441",
+              "prefix": "هص",
+              "number": "441"
+            },
+            "en": {
+              "rawCode": "441-هص",
+              "normalizedCode": "IE-441",
+              "prefix": "IE",
+              "number": "441"
+            }
+          },
+          "name": "Work design and analysis",
+          "name_ar": "تصميم العمل وتحليله",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "IE-352"
+            }
+          ],
+          "sections": []
+        }
+      ]
+    },
+    {
+      "level_id": 9,
+      "level_label": "التاسع",
+      "courses": [
+        {
+          "code": {
+            "ar": {
+              "rawCode": "443-هص",
+              "normalizedCode": "هص-443",
+              "prefix": "هص",
+              "number": "443"
+            },
+            "en": {
+              "rawCode": "443-هص",
+              "normalizedCode": "IE-443",
+              "prefix": "IE",
+              "number": "443"
+            }
+          },
+          "name": "Safety Engineering",
+          "name_ar": "هندسة السلامة",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "IE-442"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "462-هص",
+              "normalizedCode": "هص-462",
+              "prefix": "هص",
+              "number": "462"
+            },
+            "en": {
+              "rawCode": "462-هص",
+              "normalizedCode": "IE-462",
+              "prefix": "IE",
+              "number": "462"
+            }
+          },
+          "name": "Product development and innovation",
+          "name_ar": "تطوير المنتجات والابتكار",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "IE-199"
+            },
+            {
+              "code": "IE-334"
+            },
+            {
+              "code": "IE-451"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "463-هص",
+              "normalizedCode": "هص-463",
+              "prefix": "هص",
+              "number": "463"
+            },
+            "en": {
+              "rawCode": "463-هص",
+              "normalizedCode": "IE-463",
+              "prefix": "IE",
+              "number": "463"
+            }
+          },
+          "name": "Facility design and material handling",
+          "name_ar": "تصميم المنشآت ومعالجة المواد",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "IE-322"
+            },
+            {
+              "code": "IE-441"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "xxx-هص",
+              "normalizedCode": "هص-xxx",
+              "prefix": "هص",
+              "number": "xxx"
+            },
+            "en": {
+              "rawCode": "IE-xxx",
+              "normalizedCode": "IE-XXX",
+              "prefix": "IE",
+              "number": "xxx"
+            }
+          },
+          "name": "Elective Course 3 IE",
+          "name_ar": "هندسة صناعية اختياري 3",
+          "hours": 3,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "ie_elective",
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "498-هص",
+              "normalizedCode": "هص-498",
+              "prefix": "هص",
+              "number": "498"
+            },
+            "en": {
+              "rawCode": "498-هص",
+              "normalizedCode": "IE-498",
+              "prefix": "IE",
+              "number": "498"
+            }
+          },
+          "name": "Design project I",
+          "name_ar": "مشروع التخرج 1",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "129_HOURS"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "411-هص",
+              "normalizedCode": "هص-411",
+              "prefix": "هص",
+              "number": "411"
+            },
+            "en": {
+              "rawCode": "411-هص",
+              "normalizedCode": "IE-411",
+              "prefix": "IE",
+              "number": "411"
+            }
+          },
+          "name": "Industrial Information Systems",
+          "name_ar": "أنظمة المعلومات الصناعية",
+          "hours": 3,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "ie_elective",
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "413-هص",
+              "normalizedCode": "هص-413",
+              "prefix": "هص",
+              "number": "413"
+            },
+            "en": {
+              "rawCode": "413-هص",
+              "normalizedCode": "IE-413",
+              "prefix": "IE",
+              "number": "413"
+            }
+          },
+          "name": "Supply Chain and Inventory Control",
+          "name_ar": "سلسلة الإمداد والتحكم في المخزون",
+          "hours": 3,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "ie_elective",
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "414-هص",
+              "normalizedCode": "هص-414",
+              "prefix": "هص",
+              "number": "414"
+            },
+            "en": {
+              "rawCode": "414-هص",
+              "normalizedCode": "IE-414",
+              "prefix": "IE",
+              "number": "414"
+            }
+          },
+          "name": "Productivity Engineering and Management",
+          "name_ar": "هندسة الإنتاجية والإدارة",
+          "hours": 3,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "ie_elective",
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "415-هص",
+              "normalizedCode": "هص-415",
+              "prefix": "هص",
+              "number": "415"
+            },
+            "en": {
+              "rawCode": "415-هص",
+              "normalizedCode": "IE-415",
+              "prefix": "IE",
+              "number": "415"
+            }
+          },
+          "name": "Production System Operation",
+          "name_ar": "تشغيل نظام الإنتاج",
+          "hours": 3,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "ie_elective",
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "433-هص",
+              "normalizedCode": "هص-433",
+              "prefix": "هص",
+              "number": "433"
+            },
+            "en": {
+              "rawCode": "433-هص",
+              "normalizedCode": "IE-433",
+              "prefix": "IE",
+              "number": "433"
+            }
+          },
+          "name": "Quality Engineering II",
+          "name_ar": "هندسة الجودة 2",
+          "hours": 3,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "ie_elective",
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "444-هص",
+              "normalizedCode": "هص-444",
+              "prefix": "هص",
+              "number": "444"
+            },
+            "en": {
+              "rawCode": "444-هص",
+              "normalizedCode": "IE-444",
+              "prefix": "IE",
+              "number": "444"
+            }
+          },
+          "name": "Ergonomic Design",
+          "name_ar": "تصميم مريح",
+          "hours": 3,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "ie_elective",
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "465-هص",
+              "normalizedCode": "هص-465",
+              "prefix": "هص",
+              "number": "465"
+            },
+            "en": {
+              "rawCode": "465-هص",
+              "normalizedCode": "IE-465",
+              "prefix": "IE",
+              "number": "465"
+            }
+          },
+          "name": "Computer Integrated Manufacturing",
+          "name_ar": "التصنيع المتكامل بالحاسوب",
+          "hours": 3,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "ie_elective",
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "466-هص",
+              "normalizedCode": "هص-466",
+              "prefix": "هص",
+              "number": "466"
+            },
+            "en": {
+              "rawCode": "466-هص",
+              "normalizedCode": "IE-466",
+              "prefix": "IE",
+              "number": "466"
+            }
+          },
+          "name": "Manufacturing Systems Modeling",
+          "name_ar": "نمذجة أنظمة التصنيع",
+          "hours": 3,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "ie_elective",
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "446-هص",
+              "normalizedCode": "هص-446",
+              "prefix": "هص",
+              "number": "446"
+            },
+            "en": {
+              "rawCode": "446-هص",
+              "normalizedCode": "IE-446",
+              "prefix": "IE",
+              "number": "446"
+            }
+          },
+          "name": "Advanced Safety Engineering",
+          "name_ar": "هندسة السلامة المتقدمة",
+          "hours": 3,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "ie_elective",
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "434-هص",
+              "normalizedCode": "هص-434",
+              "prefix": "هص",
+              "number": "434"
+            },
+            "en": {
+              "rawCode": "434-هص",
+              "normalizedCode": "IE-434",
+              "prefix": "IE",
+              "number": "434"
+            }
+          },
+          "name": "Manufacturing Cost Analysis",
+          "name_ar": "تحليل تكاليف التصنيع",
+          "hours": 3,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "ie_elective",
+          "prerequisites": [
+            {
+              "code": "IE-332"
+            },
+            {
+              "code": "IE-352"
+            }
+          ],
+          "sections": []
+        }
+      ]
+    },
+    {
+      "level_id": 10,
+      "level_label": "العاشر",
+      "courses": [
+        {
+          "code": {
+            "ar": {
+              "rawCode": "303.خلق",
+              "normalizedCode": "خلق-303",
+              "prefix": "خلق",
+              "number": "303"
+            },
+            "en": {
+              "rawCode": "303.خلق",
+              "normalizedCode": "ETHC-303",
+              "prefix": "ETHC",
+              "number": "303"
+            }
+          },
+          "name": "Professional Ethics",
+          "name_ar": "الأخلاق المهنية",
+          "hours": 2,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "464-هص",
+              "normalizedCode": "هص-464",
+              "prefix": "هص",
+              "number": "464"
+            },
+            "en": {
+              "rawCode": "464-هص",
+              "normalizedCode": "IE-464",
+              "prefix": "IE",
+              "number": "464"
+            }
+          },
+          "name": "Production system design and analysis",
+          "name_ar": "تصميم وتحليل أنظمة الانتاج",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "IE-312"
+            },
+            {
+              "code": "IE-352"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "499-هص",
+              "normalizedCode": "هص-499",
+              "prefix": "هص",
+              "number": "499"
+            },
+            "en": {
+              "rawCode": "499-هص",
+              "normalizedCode": "IE-499",
+              "prefix": "IE",
+              "number": "499"
+            }
+          },
+          "name": "Senior Project II",
+          "name_ar": "مشروع التخرج 2",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "IE-498"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "999-هص",
+              "normalizedCode": "هص-999",
+              "prefix": "هص",
+              "number": "999"
+            },
+            "en": {
+              "rawCode": "999-هص",
+              "normalizedCode": "IE-999",
+              "prefix": "IE",
+              "number": "999"
+            }
+          },
+          "name": "practical training",
+          "name_ar": "التدريب العملي",
+          "hours": 1,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "xxx سلم",
+              "normalizedCode": "سلم-xxx",
+              "prefix": "سلم",
+              "number": "xxx"
+            },
+            "en": {
+              "rawCode": "xxx سلم",
+              "normalizedCode": "IC-XXX",
+              "prefix": "IC",
+              "number": "xxx"
+            }
+          },
+          "name": "Islamic Elective III",
+          "name_ar": "اختياري إسلامي 3",
+          "hours": 2,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "islamic",
+          "prerequisites": [
+            {
+              "code": "IC-101"
+            }
+          ],
+          "sections": []
+        }
+      ]
+    }
+  ]
+}

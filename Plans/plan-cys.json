@@ -1,0 +1,1582 @@
+{
+  "studentName": "",
+  "gender": 0,
+  "major": "Cyber Security",
+  "major_ar": "الأمن السيبراني",
+  "totalHours": 131,
+  "electiveGroups": {
+    "islamic": {
+      "label": "اختياري إسلامي",
+      "requiredHours": 6,
+      "totalSlots": 3
+    },
+    "cys_elective": {
+      "label": "اختياري أمن",
+      "requiredHours": 9,
+      "totalSlots": 3
+    },
+    "free": {
+      "label": "اختياري حر",
+      "requiredHours": 3,
+      "totalSlots": 1
+    }
+  },
+  "levels": [
+    {
+      "level_id": 1,
+      "level_label": "الأول",
+      "courses": [
+        {
+          "code": {
+            "ar": {
+              "rawCode": "نجم .١٠١",
+              "normalizedCode": "نجم-101",
+              "prefix": "نجم",
+              "number": "101"
+            },
+            "en": {
+              "rawCode": "نجم .١٠١",
+              "normalizedCode": "ENGL-101",
+              "prefix": "ENGL",
+              "number": "101"
+            }
+          },
+          "name": "English I",
+          "name_ar": "لغة إنجليزية ١",
+          "hours": 6,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "ريض .١٠١",
+              "normalizedCode": "ريض-101",
+              "prefix": "ريض",
+              "number": "101"
+            },
+            "en": {
+              "rawCode": "ريض .١٠١",
+              "normalizedCode": "MATH-101",
+              "prefix": "MATH",
+              "number": "101"
+            }
+          },
+          "name": "Calculus I",
+          "name_ar": "تفاضل وتكامل ١",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "تصال . 101",
+              "normalizedCode": "تصال-101",
+              "prefix": "تصال",
+              "number": "101"
+            },
+            "en": {
+              "rawCode": "تصال . 101",
+              "normalizedCode": "LS-101",
+              "prefix": "LS",
+              "number": "101"
+            }
+          },
+          "name": "Learning skills",
+          "name_ar": "مهارات التعلم",
+          "hours": 2,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "دار - ١٠١",
+              "normalizedCode": "دار-101",
+              "prefix": "دار",
+              "number": "101"
+            },
+            "en": {
+              "rawCode": "دار - ١٠١",
+              "normalizedCode": "MGT-101",
+              "prefix": "MGT",
+              "number": "101"
+            }
+          },
+          "name": "Entrepreneurship",
+          "name_ar": "ريادة الأعمال",
+          "hours": 1,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "عرب . ١٠١",
+              "normalizedCode": "عرب-101",
+              "prefix": "عرب",
+              "number": "101"
+            },
+            "en": {
+              "rawCode": "عرب . ١٠١",
+              "normalizedCode": "ARAB-101",
+              "prefix": "ARAB",
+              "number": "101"
+            }
+          },
+          "name": "Arabic Language",
+          "name_ar": "المهارات اللغوية",
+          "hours": 2,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "سلم - ١٠١",
+              "normalizedCode": "سلم-101",
+              "prefix": "سلم",
+              "number": "101"
+            },
+            "en": {
+              "rawCode": "سلم - ١٠١",
+              "normalizedCode": "IC-101",
+              "prefix": "IC",
+              "number": "101"
+            }
+          },
+          "name": "Introduction to Islamic Culture",
+          "name_ar": "المدخل للثقافة الإسلامية",
+          "hours": 2,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": null,
+          "sections": []
+        }
+      ]
+    },
+    {
+      "level_id": 2,
+      "level_label": "الثاني",
+      "courses": [
+        {
+          "code": {
+            "ar": {
+              "rawCode": "نجم . 102",
+              "normalizedCode": "نجم-102",
+              "prefix": "نجم",
+              "number": "102"
+            },
+            "en": {
+              "rawCode": "نجم . 102",
+              "normalizedCode": "ENGL-102",
+              "prefix": "ENGL",
+              "number": "102"
+            }
+          },
+          "name": "English II",
+          "name_ar": "لغة إنجليزية ٢",
+          "hours": 6,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "ENGL-101"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "فيز .101",
+              "normalizedCode": "فيز-101",
+              "prefix": "فيز",
+              "number": "101"
+            },
+            "en": {
+              "rawCode": "فيز .101",
+              "normalizedCode": "PHYS-101",
+              "prefix": "PHYS",
+              "number": "101"
+            }
+          },
+          "name": "General Physics I",
+          "name_ar": "فيزياء عامة ١",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "MATH-101"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "فيز .103",
+              "normalizedCode": "فيز-103",
+              "prefix": "فيز",
+              "number": "103"
+            },
+            "en": {
+              "rawCode": "فيز .103",
+              "normalizedCode": "PHYS-103",
+              "prefix": "PHYS",
+              "number": "103"
+            }
+          },
+          "name": "Physics Lab I",
+          "name_ar": "معمل فيزياء ١",
+          "hours": 1,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "MATH-101"
+            },
+            {
+              "code": "PHYS-101"
+            }
+          ],
+          "sections": [],
+          "isLab": true
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "عال -111",
+              "normalizedCode": "عال-111",
+              "prefix": "عال",
+              "number": "111"
+            },
+            "en": {
+              "rawCode": "عال -111",
+              "normalizedCode": "CS-111",
+              "prefix": "CS",
+              "number": "111"
+            }
+          },
+          "name": "Computer Skills",
+          "name_ar": "مهارات حاسب",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "سلم xxx",
+              "normalizedCode": "سلم-xxx",
+              "prefix": "سلم",
+              "number": "xxx"
+            },
+            "en": {
+              "rawCode": "سلم xxx",
+              "normalizedCode": "IC-XXX",
+              "prefix": "IC",
+              "number": "xxx"
+            }
+          },
+          "name": "Islamic Elective I",
+          "name_ar": "اختياري إسلامي ١",
+          "hours": 2,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "islamic",
+          "prerequisites": [
+            {
+              "code": "IC-101"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "بدن - 101",
+              "normalizedCode": "بدن-101",
+              "prefix": "بدن",
+              "number": "101"
+            },
+            "en": {
+              "rawCode": "بدن - 101",
+              "normalizedCode": "PE-101",
+              "prefix": "PE",
+              "number": "101"
+            }
+          },
+          "name": "Physical Educ.",
+          "name_ar": "تربية بدنية",
+          "hours": 1,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": null,
+          "sections": []
+        }
+      ]
+    },
+    {
+      "level_id": 3,
+      "level_label": "الثالث",
+      "courses": [
+        {
+          "code": {
+            "ar": {
+              "rawCode": "عال-101",
+              "normalizedCode": "عال-101",
+              "prefix": "عال",
+              "number": "101"
+            },
+            "en": {
+              "rawCode": "عال-101",
+              "normalizedCode": "CS-101",
+              "prefix": "CS",
+              "number": "101"
+            }
+          },
+          "name": "Computer Programming I",
+          "name_ar": "برمجة حاسب ١",
+          "hours": 4,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "MATH-101"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "سلم xxx",
+              "normalizedCode": "سلم-xxx",
+              "prefix": "سلم",
+              "number": "xxx"
+            },
+            "en": {
+              "rawCode": "سلم xxx",
+              "normalizedCode": "IC-XXX",
+              "prefix": "IC",
+              "number": "xxx"
+            }
+          },
+          "name": "Islamic Elective II",
+          "name_ar": "اختياري إسلامي ٢",
+          "hours": 2,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "islamic",
+          "prerequisites": [
+            {
+              "code": "IC-101"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "نجم .201",
+              "normalizedCode": "نجم-201",
+              "prefix": "نجم",
+              "number": "201"
+            },
+            "en": {
+              "rawCode": "نجم .201",
+              "normalizedCode": "ENGL-201",
+              "prefix": "ENGL",
+              "number": "201"
+            }
+          },
+          "name": "Intro. to Academic Discourse",
+          "name_ar": "مدخل في تحليل النصوص",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "ENGL-102"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "ريض .102",
+              "normalizedCode": "ريض-102",
+              "prefix": "ريض",
+              "number": "102"
+            },
+            "en": {
+              "rawCode": "ريض .102",
+              "normalizedCode": "MATH-102",
+              "prefix": "MATH",
+              "number": "102"
+            }
+          },
+          "name": "Calculus II",
+          "name_ar": "تفاضل وتكامل ٢",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "MATH-101"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "أمن-211",
+              "normalizedCode": "أمن-211",
+              "prefix": "أمن",
+              "number": "211"
+            },
+            "en": {
+              "rawCode": "أمن-211",
+              "normalizedCode": "CYS-211",
+              "prefix": "CYS",
+              "number": "211"
+            }
+          },
+          "name": "Introduction To Cyber Security",
+          "name_ar": "مقدمة في الأمن السيبراني",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "MATH-101"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "عرب .202",
+              "normalizedCode": "عرب-202",
+              "prefix": "عرب",
+              "number": "202"
+            },
+            "en": {
+              "rawCode": "عرب .202",
+              "normalizedCode": "ARAB-202",
+              "prefix": "ARAB",
+              "number": "202"
+            }
+          },
+          "name": "Arabic Editing",
+          "name_ar": "التحرير العربي",
+          "hours": 2,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "ARAB-101"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "سلم 203",
+              "normalizedCode": "سلم-203",
+              "prefix": "سلم",
+              "number": "203"
+            },
+            "en": {
+              "rawCode": "سلم 203",
+              "normalizedCode": "IC-203",
+              "prefix": "IC",
+              "number": "203"
+            }
+          },
+          "name": "Islam and Community Building",
+          "name_ar": "الإسلام وبناء المجتمع.",
+          "hours": 2,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "islamic",
+          "prerequisites": [
+            {
+              "code": "IC-101"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "سلم .306",
+              "normalizedCode": "سلم-306",
+              "prefix": "سلم",
+              "number": "306"
+            },
+            "en": {
+              "rawCode": "سلم .306",
+              "normalizedCode": "IC-306",
+              "prefix": "IC",
+              "number": "306"
+            }
+          },
+          "name": "Islamic Economic System",
+          "name_ar": "النظام الاقتصادي في الإسلام",
+          "hours": 2,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "islamic",
+          "prerequisites": [
+            {
+              "code": "IC-101"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "سلم-205",
+              "normalizedCode": "سلم-205",
+              "prefix": "سلم",
+              "number": "205"
+            },
+            "en": {
+              "rawCode": "سلم-205",
+              "normalizedCode": "IC-205",
+              "prefix": "IC",
+              "number": "205"
+            }
+          },
+          "name": "Family in Islam",
+          "name_ar": "الأسرة وبناء المجتمع",
+          "hours": 2,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "islamic",
+          "prerequisites": [
+            {
+              "code": "IC-101"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "سلم 410",
+              "normalizedCode": "سلم-410",
+              "prefix": "سلم",
+              "number": "410"
+            },
+            "en": {
+              "rawCode": "سلم 410",
+              "normalizedCode": "IC-410",
+              "prefix": "IC",
+              "number": "410"
+            }
+          },
+          "name": "Biography of the Prophet",
+          "name_ar": "السيرة النبوية",
+          "hours": 2,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "islamic",
+          "prerequisites": [
+            {
+              "code": "IC-101"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "سلم 408",
+              "normalizedCode": "سلم-408",
+              "prefix": "سلم",
+              "number": "408"
+            },
+            "en": {
+              "rawCode": "سلم 408",
+              "normalizedCode": "IC-408",
+              "prefix": "IC",
+              "number": "408"
+            }
+          },
+          "name": "Islamic Political System",
+          "name_ar": "النظام السياسي في الإسلام",
+          "hours": 2,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "islamic",
+          "prerequisites": [
+            {
+              "code": "IC-101"
+            }
+          ],
+          "sections": []
+        }
+      ]
+    },
+    {
+      "level_id": 4,
+      "level_label": "الرابع",
+      "courses": [
+        {
+          "code": {
+            "ar": {
+              "rawCode": "عال-102",
+              "normalizedCode": "عال-102",
+              "prefix": "عال",
+              "number": "102"
+            },
+            "en": {
+              "rawCode": "عال-102",
+              "normalizedCode": "CS-102",
+              "prefix": "CS",
+              "number": "102"
+            }
+          },
+          "name": "Computer Programming II",
+          "name_ar": "برمجة حاسب ٢",
+          "hours": 4,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "CS-101"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "هال-344",
+              "normalizedCode": "هال-344",
+              "prefix": "هال",
+              "number": "344"
+            },
+            "en": {
+              "rawCode": "هال-344",
+              "normalizedCode": "COE-344",
+              "prefix": "COE",
+              "number": "344"
+            }
+          },
+          "name": "Computer Networks",
+          "name_ar": "شبكات الحاسب",
+          "hours": 4,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "عال-225",
+              "normalizedCode": "عال-225",
+              "prefix": "عال",
+              "number": "225"
+            },
+            "en": {
+              "rawCode": "عال-225",
+              "normalizedCode": "CS-225",
+              "prefix": "CS",
+              "number": "225"
+            }
+          },
+          "name": "Software Engineering, Design and Development",
+          "name_ar": "تصميم وتطوير البرمجيات الهندسية",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "CS-101"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "احص-219",
+              "normalizedCode": "احص-219",
+              "prefix": "احص",
+              "number": "219"
+            },
+            "en": {
+              "rawCode": "احص-219",
+              "normalizedCode": "STAT-219",
+              "prefix": "STAT",
+              "number": "219"
+            }
+          },
+          "name": "Prob. & Stat. For Eng. & Sc.",
+          "name_ar": "احتمالات وإحصاء للهندسة والعلوم",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "MATH-102"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "أمن-212",
+              "normalizedCode": "أمن-212",
+              "prefix": "أمن",
+              "number": "212"
+            },
+            "en": {
+              "rawCode": "أمن-212",
+              "normalizedCode": "CYS-212",
+              "prefix": "CYS",
+              "number": "212"
+            }
+          },
+          "name": "Penetration Testing and Vulnerability Assessment",
+          "name_ar": "اختبار الاختراق وتقييم الثغرات الأمنية",
+          "hours": 4,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "CYS-211"
+            }
+          ],
+          "sections": []
+        }
+      ]
+    },
+    {
+      "level_id": 5,
+      "level_label": "الخامس",
+      "courses": [
+        {
+          "code": {
+            "ar": {
+              "rawCode": "عال-210",
+              "normalizedCode": "عال-210",
+              "prefix": "عال",
+              "number": "210"
+            },
+            "en": {
+              "rawCode": "عال-210",
+              "normalizedCode": "CS-210",
+              "prefix": "CS",
+              "number": "210"
+            }
+          },
+          "name": "Data Structures and Algorithms",
+          "name_ar": "تراكيب البيانات والخوارزميات",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "CS-102"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "عال-285",
+              "normalizedCode": "عال-285",
+              "prefix": "عال",
+              "number": "285"
+            },
+            "en": {
+              "rawCode": "عال-285",
+              "normalizedCode": "CS-285",
+              "prefix": "CS",
+              "number": "285"
+            }
+          },
+          "name": "Discrete Math for Computer",
+          "name_ar": "رياضيات متقطعة",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "MATH-102"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "عال-340",
+              "normalizedCode": "عال-340",
+              "prefix": "عال",
+              "number": "340"
+            },
+            "en": {
+              "rawCode": "عال-340",
+              "normalizedCode": "CS-340",
+              "prefix": "CS",
+              "number": "340"
+            }
+          },
+          "name": "Introduction to Database Systems",
+          "name_ar": "مقدمة في نظم قواعد البيانات",
+          "hours": 4,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "CS-102"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "عال-344",
+              "normalizedCode": "عال-344",
+              "prefix": "عال",
+              "number": "344"
+            },
+            "en": {
+              "rawCode": "عال-344",
+              "normalizedCode": "CS-344",
+              "prefix": "CS",
+              "number": "344"
+            }
+          },
+          "name": "Advanced Programming",
+          "name_ar": "البرمجة المتقدمة",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "CS-102"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "أمن-314",
+              "normalizedCode": "أمن-314",
+              "prefix": "أمن",
+              "number": "314"
+            },
+            "en": {
+              "rawCode": "أمن-314",
+              "normalizedCode": "CYS-314",
+              "prefix": "CYS",
+              "number": "314"
+            }
+          },
+          "name": "Cryptography",
+          "name_ar": "علم التشفير",
+          "hours": 4,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "CYS-211"
+            }
+          ],
+          "sections": []
+        }
+      ]
+    },
+    {
+      "level_id": 6,
+      "level_label": "السادس",
+      "courses": [
+        {
+          "code": {
+            "ar": {
+              "rawCode": "خلق-303",
+              "normalizedCode": "خلق-303",
+              "prefix": "خلق",
+              "number": "303"
+            },
+            "en": {
+              "rawCode": "خلق-303",
+              "normalizedCode": "ETHC-303",
+              "prefix": "ETHC",
+              "number": "303"
+            }
+          },
+          "name": "Ethical and Social Aspects of Computer",
+          "name_ar": "الجوانب الأخلاقية والاجتماعية في الحاسب",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "عال-311",
+              "normalizedCode": "عال-311",
+              "prefix": "عال",
+              "number": "311"
+            },
+            "en": {
+              "rawCode": "عال-311",
+              "normalizedCode": "CS-311",
+              "prefix": "CS",
+              "number": "311"
+            }
+          },
+          "name": "Design and Analysis of Algorithms",
+          "name_ar": "تحليل وتصميم الخوارزميات",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "CS-102"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "عال-330",
+              "normalizedCode": "عال-330",
+              "prefix": "عال",
+              "number": "330"
+            },
+            "en": {
+              "rawCode": "عال-330",
+              "normalizedCode": "CS-330",
+              "prefix": "CS",
+              "number": "330"
+            }
+          },
+          "name": "Introduction to Operating Systems",
+          "name_ar": "أنظمة التشغيل",
+          "hours": 4,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "CS-210"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "أمن-315",
+              "normalizedCode": "أمن-315",
+              "prefix": "أمن",
+              "number": "315"
+            },
+            "en": {
+              "rawCode": "أمن-315",
+              "normalizedCode": "CYS-315",
+              "prefix": "CYS",
+              "number": "315"
+            }
+          },
+          "name": "Software Security",
+          "name_ar": "أمن البرمجيات",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "CYS-211"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "أمن-316",
+              "normalizedCode": "أمن-316",
+              "prefix": "أمن",
+              "number": "316"
+            },
+            "en": {
+              "rawCode": "أمن-316",
+              "normalizedCode": "CYS-316",
+              "prefix": "CYS",
+              "number": "316"
+            }
+          },
+          "name": "Scripting for Cyber Security",
+          "name_ar": "البرمجة النصية للأمن السيبراني",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "CS-102"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "سلم xxx",
+              "normalizedCode": "سلم-xxx",
+              "prefix": "سلم",
+              "number": "xxx"
+            },
+            "en": {
+              "rawCode": "سلم xxx",
+              "normalizedCode": "IC-XXX",
+              "prefix": "IC",
+              "number": "xxx"
+            }
+          },
+          "name": "Islamic Elective III",
+          "name_ar": "اختياري إسلامي ٣",
+          "hours": 2,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "islamic",
+          "prerequisites": [
+            {
+              "code": "IC-101"
+            }
+          ],
+          "sections": []
+        }
+      ]
+    },
+    {
+      "level_id": 7,
+      "level_label": "السابع",
+      "courses": [
+        {
+          "code": {
+            "ar": {
+              "rawCode": "أمن-211",
+              "normalizedCode": "أمن-211",
+              "prefix": "أمن",
+              "number": "211"
+            },
+            "en": {
+              "rawCode": "أمن-211",
+              "normalizedCode": "CYS-313",
+              "prefix": "CYS",
+              "number": "313"
+            }
+          },
+          "name": "Malware Analysis and Reverse Engineering",
+          "name_ar": "تحليل البرمجيات الخبيثة والهندسة العكسية",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "CYS-211"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "عال-498",
+              "normalizedCode": "عال-498",
+              "prefix": "عال",
+              "number": "498"
+            },
+            "en": {
+              "rawCode": "عال-498",
+              "normalizedCode": "CS-498",
+              "prefix": "CS",
+              "number": "498"
+            }
+          },
+          "name": "Senior Project 1",
+          "name_ar": "مشروع التخرج ١",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "95_HOURS"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "أمن-212",
+              "normalizedCode": "أمن-212",
+              "prefix": "أمن",
+              "number": "212"
+            },
+            "en": {
+              "rawCode": "أمن-212",
+              "normalizedCode": "CYS-413",
+              "prefix": "CYS",
+              "number": "413"
+            }
+          },
+          "name": "Wireless and Mobile Security",
+          "name_ar": "الأمن اللاسلكي والمتنقل",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "CYS-212"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "أمن - xxx",
+              "normalizedCode": "أمن-xxx",
+              "prefix": "أمن",
+              "number": "xxx"
+            },
+            "en": {
+              "rawCode": "أمن - xxx",
+              "normalizedCode": "CYS-XXX",
+              "prefix": "CYS",
+              "number": "xxx"
+            }
+          },
+          "name": "CYS Elective I",
+          "name_ar": "اختياري أمن ١",
+          "hours": 3,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "cys_elective",
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "أمن-301",
+              "normalizedCode": "أمن-301",
+              "prefix": "أمن",
+              "number": "301"
+            },
+            "en": {
+              "rawCode": "أمن-301",
+              "normalizedCode": "CYS-414",
+              "prefix": "CYS",
+              "number": "414"
+            }
+          },
+          "name": "Cyber Crime and Cyber Law",
+          "name_ar": "الجريمة الإلكترونية والقانون الإلكتروني",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "CYS-301"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "أمن-490",
+              "normalizedCode": "أمن-490",
+              "prefix": "أمن",
+              "number": "490"
+            },
+            "en": {
+              "rawCode": "أمن-490",
+              "normalizedCode": "CYS-490",
+              "prefix": "CYS",
+              "number": "490"
+            }
+          },
+          "name": "Internship",
+          "name_ar": "التدريب الميداني",
+          "hours": 2,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "95_HOURS"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "أمن-443",
+              "normalizedCode": "أمن-443",
+              "prefix": "أمن",
+              "number": "443"
+            },
+            "en": {
+              "rawCode": "أمن-443",
+              "normalizedCode": "CYS-443",
+              "prefix": "CYS",
+              "number": "443"
+            }
+          },
+          "name": "Applied Cryptography",
+          "name_ar": "التشفير التطبيقي",
+          "hours": 3,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "cys_elective",
+          "prerequisites": [
+            {
+              "code": "CYS-314"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "أمن-445",
+              "normalizedCode": "أمن-445",
+              "prefix": "أمن",
+              "number": "445"
+            },
+            "en": {
+              "rawCode": "أمن-445",
+              "normalizedCode": "CYS-445",
+              "prefix": "CYS",
+              "number": "445"
+            }
+          },
+          "name": "Advanced Digital Forensics",
+          "name_ar": "التحقيق الجنائي الرقمي المتقدم",
+          "hours": 3,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "cys_elective",
+          "prerequisites": [
+            {
+              "code": "CYS-415"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "أمن-447",
+              "normalizedCode": "أمن-447",
+              "prefix": "أمن",
+              "number": "447"
+            },
+            "en": {
+              "rawCode": "أمن-447",
+              "normalizedCode": "CYS-447",
+              "prefix": "CYS",
+              "number": "447"
+            }
+          },
+          "name": "Security Operations and Monitoring",
+          "name_ar": "عمليات ومراقبة الأمن السيبراني",
+          "hours": 3,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "cys_elective",
+          "prerequisites": [
+            {
+              "code": "CYS-315"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "أمن-448",
+              "normalizedCode": "أمن-448",
+              "prefix": "أمن",
+              "number": "448"
+            },
+            "en": {
+              "rawCode": "أمن-448",
+              "normalizedCode": "CYS-448",
+              "prefix": "CYS",
+              "number": "448"
+            }
+          },
+          "name": "Emerging Topics in Cyber Security",
+          "name_ar": "مواضيع حديثة في الأمن السيبراني",
+          "hours": 3,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "cys_elective",
+          "prerequisites": [
+            {
+              "code": "CYS-211"
+            },
+            {
+              "code": "CYS-212"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "أمن-449",
+              "normalizedCode": "أمن-449",
+              "prefix": "أمن",
+              "number": "449"
+            },
+            "en": {
+              "rawCode": "أمن-449",
+              "normalizedCode": "CYS-449",
+              "prefix": "CYS",
+              "number": "449"
+            }
+          },
+          "name": "Security Auditing and Assessment",
+          "name_ar": "تدقيق وتقييم الأمن السيبراني",
+          "hours": 3,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "cys_elective",
+          "prerequisites": [
+            {
+              "code": "CYS-212"
+            }
+          ],
+          "sections": []
+        }
+      ]
+    },
+    {
+      "level_id": 8,
+      "level_label": "الثامن",
+      "courses": [
+        {
+          "code": {
+            "ar": {
+              "rawCode": "أمن-414",
+              "normalizedCode": "أمن-414",
+              "prefix": "أمن",
+              "number": "414"
+            },
+            "en": {
+              "rawCode": "أمن-414",
+              "normalizedCode": "CYS-415",
+              "prefix": "CYS",
+              "number": "415"
+            }
+          },
+          "name": "Digital Forensics",
+          "name_ar": "التحقيقات الرقمية",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "CYS-414"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "أمن-498",
+              "normalizedCode": "أمن-498",
+              "prefix": "أمن",
+              "number": "498"
+            },
+            "en": {
+              "rawCode": "أمن-498",
+              "normalizedCode": "CYS-499",
+              "prefix": "CYS",
+              "number": "499"
+            }
+          },
+          "name": "Senior Project II",
+          "name_ar": "مشروع التخرج ٢",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "CYS-498"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "xxxx",
+              "normalizedCode": "حرة-1",
+              "prefix": "حرة",
+              "number": "1"
+            },
+            "en": {
+              "rawCode": "xxxx",
+              "normalizedCode": "FREE-1",
+              "prefix": "FREE",
+              "number": "1"
+            }
+          },
+          "name": "Free Elective",
+          "name_ar": "اختياري حر",
+          "hours": 3,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "free",
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "أمن-2xx",
+              "normalizedCode": "أمن-xxx",
+              "prefix": "أمن",
+              "number": "xxx"
+            },
+            "en": {
+              "rawCode": "أمن-2xx",
+              "normalizedCode": "CYS-XXX",
+              "prefix": "CYS",
+              "number": "xxx"
+            }
+          },
+          "name": "CYS Elective II",
+          "name_ar": "اختياري أمن ٢",
+          "hours": 3,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "cys_elective",
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "أمن-xxx",
+              "normalizedCode": "أمن-xxx",
+              "prefix": "أمن",
+              "number": "xxx"
+            },
+            "en": {
+              "rawCode": "أمن-xxx",
+              "normalizedCode": "CYS-XXX",
+              "prefix": "CYS",
+              "number": "xxx"
+            }
+          },
+          "name": "CYS Elective III",
+          "name_ar": "اختياري أمن ٣",
+          "hours": 3,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "cys_elective",
+          "prerequisites": null,
+          "sections": []
+        }
+      ]
+    }
+  ]
+}

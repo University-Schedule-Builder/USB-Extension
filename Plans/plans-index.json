@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "plans": {
+    "ai": { "version": 1, "updatedAt": "2026-05-01" },
+    "ce": { "version": 1, "updatedAt": "2026-05-01" },
+    "cn": { "version": 1, "updatedAt": "2026-05-01" },
+    "cs": { "version": 1, "updatedAt": "2026-05-01" },
+    "cys": { "version": 1, "updatedAt": "2026-05-01" },
+    "ece": { "version": 1, "updatedAt": "2026-05-01" },
+    "ie": { "version": 1, "updatedAt": "2026-05-01" },
+    "ro": { "version": 1, "updatedAt": "2026-05-01" },
+    "se": { "version": 1, "updatedAt": "2026-05-01" },
+  }
+}

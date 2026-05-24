@@ -1,0 +1,1959 @@
+{
+  "studentName": "",
+  "gender": 0,
+  "major": "Computer Science Program – Software engineering",
+  "major_ar": "برنامج علوم الحاسب – هندسة برمجيات",
+  "totalHours": 161,
+  "electiveGroups": {
+    "islamic": {
+      "label": "اختياري إسلامي",
+      "requiredHours": 6,
+      "totalSlots": 3
+    },
+    "science": {
+      "label": "علوم اختياري",
+      "requiredHours": 3,
+      "totalSlots": 1
+    },
+    "math": {
+      "label": "اختياري رياضيات",
+      "requiredHours": 3,
+      "totalSlots": 1
+    },
+    "se_elective": {
+      "label": "هندسة برمجيات اختياري",
+      "requiredHours": 9,
+      "totalSlots": 3
+    },
+    "free": {
+      "label": "اختياري حر",
+      "requiredHours": 6,
+      "totalSlots": 2
+    }
+  },
+  "levels": [
+    {
+      "level_id": 1,
+      "level_label": "الأول",
+      "courses": [
+        {
+          "code": {
+            "ar": {
+              "rawCode": "101 -نجم",
+              "normalizedCode": "نجم-101",
+              "prefix": "نجم",
+              "number": "101"
+            },
+            "en": {
+              "rawCode": "101 -نجم",
+              "normalizedCode": "ENGL-101",
+              "prefix": "ENGL",
+              "number": "101"
+            }
+          },
+          "name": "English I",
+          "name_ar": "لغة إنجليزية 1",
+          "hours": 6,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "101-ريض",
+              "normalizedCode": "ريض-101",
+              "prefix": "ريض",
+              "number": "101"
+            },
+            "en": {
+              "rawCode": "101-ريض",
+              "normalizedCode": "MATH-101",
+              "prefix": "MATH",
+              "number": "101"
+            }
+          },
+          "name": "Calculus I",
+          "name_ar": "تفاضل وتكامل 1",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "101-إتصال",
+              "normalizedCode": "إتصال-101",
+              "prefix": "إتصال",
+              "number": "101"
+            },
+            "en": {
+              "rawCode": "101-إتصال",
+              "normalizedCode": "LS-101",
+              "prefix": "LS",
+              "number": "101"
+            }
+          },
+          "name": "Learning skills",
+          "name_ar": "مهارات التعلم",
+          "hours": 2,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "101 -دار",
+              "normalizedCode": "دار-101",
+              "prefix": "دار",
+              "number": "101"
+            },
+            "en": {
+              "rawCode": "101 -دار",
+              "normalizedCode": "MGT-101",
+              "prefix": "MGT",
+              "number": "101"
+            }
+          },
+          "name": "Entrepreneurship",
+          "name_ar": "ريادة الأعمال",
+          "hours": 1,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "101 -عرب",
+              "normalizedCode": "عرب-101",
+              "prefix": "عرب",
+              "number": "101"
+            },
+            "en": {
+              "rawCode": "101 -عرب",
+              "normalizedCode": "ARAB-101",
+              "prefix": "ARAB",
+              "number": "101"
+            }
+          },
+          "name": "Arabic Language Skills",
+          "name_ar": "المهارات اللغوية",
+          "hours": 2,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "101 سلم",
+              "normalizedCode": "سلم-101",
+              "prefix": "سلم",
+              "number": "101"
+            },
+            "en": {
+              "rawCode": "101 سلم",
+              "normalizedCode": "IC-101",
+              "prefix": "IC",
+              "number": "101"
+            }
+          },
+          "name": "Islamic Culture",
+          "name_ar": "المدخل إلى الثقافة الإسلامية",
+          "hours": 2,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": null,
+          "sections": []
+        }
+      ]
+    },
+    {
+      "level_id": 2,
+      "level_label": "الثاني",
+      "courses": [
+        {
+          "code": {
+            "ar": {
+              "rawCode": "102-نجم",
+              "normalizedCode": "نجم-102",
+              "prefix": "نجم",
+              "number": "102"
+            },
+            "en": {
+              "rawCode": "102-نجم",
+              "normalizedCode": "ENGL-102",
+              "prefix": "ENGL",
+              "number": "102"
+            }
+          },
+          "name": "English II",
+          "name_ar": "لغة إنجليزية 2",
+          "hours": 6,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "ENGL-101"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "101-فيز",
+              "normalizedCode": "فيز-101",
+              "prefix": "فيز",
+              "number": "101"
+            },
+            "en": {
+              "rawCode": "101-فيز",
+              "normalizedCode": "PHYS-101",
+              "prefix": "PHYS",
+              "number": "101"
+            }
+          },
+          "name": "General Physics I",
+          "name_ar": "فيزياء عامة 1",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "MATH-101"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "103-فيز",
+              "normalizedCode": "فيز-103",
+              "prefix": "فيز",
+              "number": "103"
+            },
+            "en": {
+              "rawCode": "103-فيز",
+              "normalizedCode": "PHYS-103",
+              "prefix": "PHYS",
+              "number": "103"
+            }
+          },
+          "name": "Physics Lab I",
+          "name_ar": "معمل فيزياء 1",
+          "hours": 1,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "MATH-101"
+            },
+            {
+              "code": "PHYS-101"
+            }
+          ],
+          "sections": [],
+          "isLab": true
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "111-عال",
+              "normalizedCode": "عال-111",
+              "prefix": "عال",
+              "number": "111"
+            },
+            "en": {
+              "rawCode": "111-عال",
+              "normalizedCode": "CS-111",
+              "prefix": "CS",
+              "number": "111"
+            }
+          },
+          "name": "Computer Skills",
+          "name_ar": "مهارات حاسب",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "110-عال",
+              "normalizedCode": "عال-110",
+              "prefix": "عال",
+              "number": "110"
+            },
+            "en": {
+              "rawCode": "110-عال",
+              "normalizedCode": "CS-110",
+              "prefix": "CS",
+              "number": "110"
+            }
+          },
+          "name": "Digital Logic Design",
+          "name_ar": "تصميم منطقي رقمي",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "101-بدن",
+              "normalizedCode": "بدن-101",
+              "prefix": "بدن",
+              "number": "101"
+            },
+            "en": {
+              "rawCode": "101-بدن",
+              "normalizedCode": "PE-101",
+              "prefix": "PE",
+              "number": "101"
+            }
+          },
+          "name": "Physical Educ.",
+          "name_ar": "تربية بدنية",
+          "hours": 1,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": null,
+          "sections": []
+        }
+      ]
+    },
+    {
+      "level_id": 3,
+      "level_label": "الثالث",
+      "courses": [
+        {
+          "code": {
+            "ar": {
+              "rawCode": "101-عال",
+              "normalizedCode": "عال-101",
+              "prefix": "عال",
+              "number": "101"
+            },
+            "en": {
+              "rawCode": "101-عال",
+              "normalizedCode": "CS-101",
+              "prefix": "CS",
+              "number": "101"
+            }
+          },
+          "name": "Computer Programming I",
+          "name_ar": "برمجة حاسب 1",
+          "hours": 4,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "MATH-101"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "102-ريض",
+              "normalizedCode": "ريض-102",
+              "prefix": "ريض",
+              "number": "102"
+            },
+            "en": {
+              "rawCode": "102-ريض",
+              "normalizedCode": "MATH-102",
+              "prefix": "MATH",
+              "number": "102"
+            }
+          },
+          "name": "Calculus II",
+          "name_ar": "تفاضل وتكامل 2",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "MATH-101"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "201-نجم",
+              "normalizedCode": "نجم-201",
+              "prefix": "نجم",
+              "number": "201"
+            },
+            "en": {
+              "rawCode": "201-نجم",
+              "normalizedCode": "ENGL-201",
+              "prefix": "ENGL",
+              "number": "201"
+            }
+          },
+          "name": "Intro. to Academic Discourse",
+          "name_ar": "مدخل في تحليل النصوص",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "ENGL-102"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "سلم-xxx",
+              "normalizedCode": "سلم-xxx",
+              "prefix": "سلم",
+              "number": "xxx"
+            },
+            "en": {
+              "rawCode": "IC-XXX",
+              "normalizedCode": "IC-XXX",
+              "prefix": "IC",
+              "number": "xxx"
+            }
+          },
+          "name": "Islamic Elective I",
+          "name_ar": "اختياري إسلامي 1",
+          "hours": 2,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "islamic",
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "علوم-xxx",
+              "normalizedCode": "علوم-xxx",
+              "prefix": "علوم",
+              "number": "xxx"
+            },
+            "en": {
+              "rawCode": "SCI-XXX",
+              "normalizedCode": "SCI-XXX",
+              "prefix": "SCI",
+              "number": "xxx"
+            }
+          },
+          "name": "Science Elective",
+          "name_ar": "علوم اختياري",
+          "hours": 3,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "science",
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "202-عرب",
+              "normalizedCode": "عرب-202",
+              "prefix": "عرب",
+              "number": "202"
+            },
+            "en": {
+              "rawCode": "202-عرب",
+              "normalizedCode": "ARAB-202",
+              "prefix": "ARAB",
+              "number": "202"
+            }
+          },
+          "name": "Arabic Editing",
+          "name_ar": "التحرير العربي",
+          "hours": 2,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "ARAB-101"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "102-سلم",
+              "normalizedCode": "سلم-102",
+              "prefix": "سلم",
+              "number": "102"
+            },
+            "en": {
+              "rawCode": "102-سلم",
+              "normalizedCode": "IC-102",
+              "prefix": "IC",
+              "number": "102"
+            }
+          },
+          "name": "Islam and Community Building",
+          "name_ar": "الإسلام وبناء المجتمع",
+          "hours": 2,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "islamic",
+          "prerequisites": [
+            {
+              "code": "IC-101"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "306-سلم",
+              "normalizedCode": "سلم-306",
+              "prefix": "سلم",
+              "number": "306"
+            },
+            "en": {
+              "rawCode": "306-سلم",
+              "normalizedCode": "IC-306",
+              "prefix": "IC",
+              "number": "306"
+            }
+          },
+          "name": "Islamic Economic System",
+          "name_ar": "النظام الاقتصادي في الإسلام",
+          "hours": 2,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "islamic",
+          "prerequisites": [
+            {
+              "code": "IC-101"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "205-سلم",
+              "normalizedCode": "سلم-205",
+              "prefix": "سلم",
+              "number": "205"
+            },
+            "en": {
+              "rawCode": "205-سلم",
+              "normalizedCode": "IC-205",
+              "prefix": "IC",
+              "number": "205"
+            }
+          },
+          "name": "Family in Islam",
+          "name_ar": "الأسرة وبناء المجتمع",
+          "hours": 2,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "islamic",
+          "prerequisites": [
+            {
+              "code": "IC-101"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "410-سلم",
+              "normalizedCode": "سلم-410",
+              "prefix": "سلم",
+              "number": "410"
+            },
+            "en": {
+              "rawCode": "410-سلم",
+              "normalizedCode": "IC-410",
+              "prefix": "IC",
+              "number": "410"
+            }
+          },
+          "name": "Biography of the Prophet",
+          "name_ar": "السيرة النبوية",
+          "hours": 2,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "islamic",
+          "prerequisites": [
+            {
+              "code": "IC-101"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "408-سلم",
+              "normalizedCode": "سلم-408",
+              "prefix": "سلم",
+              "number": "408"
+            },
+            "en": {
+              "rawCode": "408-سلم",
+              "normalizedCode": "IC-408",
+              "prefix": "IC",
+              "number": "408"
+            }
+          },
+          "name": "Islamic Political System",
+          "name_ar": "النظام السياسي في الإسلام",
+          "hours": 2,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "islamic",
+          "prerequisites": [
+            {
+              "code": "IC-101"
+            }
+          ],
+          "sections": []
+        }
+      ]
+    },
+    {
+      "level_id": 4,
+      "level_label": "الرابع",
+      "courses": [
+        {
+          "code": {
+            "ar": {
+              "rawCode": "102-عال",
+              "normalizedCode": "عال-102",
+              "prefix": "عال",
+              "number": "102"
+            },
+            "en": {
+              "rawCode": "102-عال",
+              "normalizedCode": "CS-102",
+              "prefix": "CS",
+              "number": "102"
+            }
+          },
+          "name": "Computer Programming II",
+          "name_ar": "برمجة حاسب 2",
+          "hours": 4,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "CS-101"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "290-عال",
+              "normalizedCode": "عال-290",
+              "prefix": "عال",
+              "number": "290"
+            },
+            "en": {
+              "rawCode": "290-عال",
+              "normalizedCode": "CS-290",
+              "prefix": "CS",
+              "number": "290"
+            }
+          },
+          "name": "Web Applications Development",
+          "name_ar": "تطوير تطبيقات الشبكة العنكبوتية",
+          "hours": 4,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "CS-101"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "225-عال",
+              "normalizedCode": "عال-225",
+              "prefix": "عال",
+              "number": "225"
+            },
+            "en": {
+              "rawCode": "225-عال",
+              "normalizedCode": "CS-225",
+              "prefix": "CS",
+              "number": "225"
+            }
+          },
+          "name": "Software Engineering, Design and Development",
+          "name_ar": "تصميم وتطوير هندسة البرمجيات",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "CS-101"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "219-احص",
+              "normalizedCode": "احص-219",
+              "prefix": "احص",
+              "number": "219"
+            },
+            "en": {
+              "rawCode": "219-احص",
+              "normalizedCode": "STAT-219",
+              "prefix": "STAT",
+              "number": "219"
+            }
+          },
+          "name": "Prob. & Stat. For Eng. & Sc.",
+          "name_ar": "احتمالات وإحصاء للهندسة والعلوم",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "MATH-102"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "ريض-xxx",
+              "normalizedCode": "ريض-xxx",
+              "prefix": "ريض",
+              "number": "xxx"
+            },
+            "en": {
+              "rawCode": "MATH xxx",
+              "normalizedCode": "MATH-XXX",
+              "prefix": "MATH",
+              "number": "xxx"
+            }
+          },
+          "name": "MATH elective",
+          "name_ar": "اختياري رياضيات",
+          "hours": 3,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "math",
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "260-عال",
+              "normalizedCode": "ريض-260",
+              "prefix": "ريض",
+              "number": "260"
+            },
+            "en": {
+              "rawCode": "MATH 260",
+              "normalizedCode": "MATH-260",
+              "prefix": "MATH",
+              "number": "260"
+            }
+          },
+          "name": "Linear Algebra & Differential Equation",
+          "name_ar": "جبر خطي ومعادلات تفاضلية",
+          "hours": 3,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "math",
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "261 - ريض",
+              "normalizedCode": "ريض-261",
+              "prefix": "ريض",
+              "number": "261"
+            },
+            "en": {
+              "rawCode": "MATH- 261",
+              "normalizedCode": "MATH-261",
+              "prefix": "MATH",
+              "number": "261"
+            }
+          },
+          "name": "Numerical Analysis",
+          "name_ar": "التحليل الرقمي",
+          "hours": 3,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "math",
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "262-ريض",
+              "normalizedCode": "ريض-262",
+              "prefix": "ريض",
+              "number": "262"
+            },
+            "en": {
+              "rawCode": "MATH- 262",
+              "normalizedCode": "MATH-262",
+              "prefix": "MATH",
+              "number": "262"
+            }
+          },
+          "name": "Introduction to Operations Research",
+          "name_ar": "مقدمة في بحوث العمليات",
+          "hours": 3,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "math",
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "263 - ريض",
+              "normalizedCode": "ريض-263",
+              "prefix": "ريض",
+              "number": "263"
+            },
+            "en": {
+              "rawCode": "MATH- 263",
+              "normalizedCode": "MATH-263",
+              "prefix": "MATH",
+              "number": "263"
+            }
+          },
+          "name": "Differential and Integral Calculus",
+          "name_ar": "حساب التفاضل والتكامل",
+          "hours": 3,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "math",
+          "prerequisites": null,
+          "sections": []
+        }
+      ]
+    },
+    {
+      "level_id": 5,
+      "level_label": "الخامس",
+      "courses": [
+        {
+          "code": {
+            "ar": {
+              "rawCode": "210-عال",
+              "normalizedCode": "عال-210",
+              "prefix": "عال",
+              "number": "210"
+            },
+            "en": {
+              "rawCode": "210-عال",
+              "normalizedCode": "CS-210",
+              "prefix": "CS",
+              "number": "210"
+            }
+          },
+          "name": "Data Structures and Algorithms",
+          "name_ar": "تراكيب البيانات والخوارزميات",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "CS-102"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "285-عال",
+              "normalizedCode": "عال-285",
+              "prefix": "عال",
+              "number": "285"
+            },
+            "en": {
+              "rawCode": "285-عال",
+              "normalizedCode": "CS-285",
+              "prefix": "CS",
+              "number": "285"
+            }
+          },
+          "name": "Discrete Math for Computer",
+          "name_ar": "رياضيات متقطعة",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "MATH-102"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "340 -عال",
+              "normalizedCode": "عال-340",
+              "prefix": "عال",
+              "number": "340"
+            },
+            "en": {
+              "rawCode": "340 -عال",
+              "normalizedCode": "CS-340",
+              "prefix": "CS",
+              "number": "340"
+            }
+          },
+          "name": "Introduction to Database Systems",
+          "name_ar": "مقدمة في نظم قواعد البيانات",
+          "hours": 4,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "CS-102"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "303 -خلق",
+              "normalizedCode": "خلق-303",
+              "prefix": "خلق",
+              "number": "303"
+            },
+            "en": {
+              "rawCode": "303 -خلق",
+              "normalizedCode": "ETHC-303",
+              "prefix": "ETHC",
+              "number": "303"
+            }
+          },
+          "name": "Ethical and Social Aspects of Computer",
+          "name_ar": "الجوانب الأخلاقية والاجتماعية في الحاسب",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "344-عال",
+              "normalizedCode": "عال-344",
+              "prefix": "عال",
+              "number": "344"
+            },
+            "en": {
+              "rawCode": "344-عال",
+              "normalizedCode": "CS-344",
+              "prefix": "CS",
+              "number": "344"
+            }
+          },
+          "name": "Advanced Programming",
+          "name_ar": "البرمجة المتقدمة",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "CS-111"
+            },
+            {
+              "code": "CS-102"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "سلم-xxx",
+              "normalizedCode": "سلم-xxx",
+              "prefix": "سلم",
+              "number": "xxx"
+            },
+            "en": {
+              "rawCode": "IC.XXX",
+              "normalizedCode": "IC-XXX",
+              "prefix": "IC",
+              "number": "xxx"
+            }
+          },
+          "name": "Islamic Elective II",
+          "name_ar": "اختياري إسلامي 2",
+          "hours": 2,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "islamic",
+          "prerequisites": [
+            {
+              "code": "IC-101"
+            }
+          ],
+          "sections": []
+        }
+      ]
+    },
+    {
+      "level_id": 6,
+      "level_label": "السادس",
+      "courses": [
+        {
+          "code": {
+            "ar": {
+              "rawCode": "251-عال",
+              "normalizedCode": "عال-251",
+              "prefix": "عال",
+              "number": "251"
+            },
+            "en": {
+              "rawCode": "251-عال",
+              "normalizedCode": "CS-251",
+              "prefix": "CS",
+              "number": "251"
+            }
+          },
+          "name": "Introduction to Comp. Organization and Assembly Language",
+          "name_ar": "مقدمة في تنظيم الحاسب ولغة التجميع",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "CS-210"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "311-عال",
+              "normalizedCode": "عال-311",
+              "prefix": "عال",
+              "number": "311"
+            },
+            "en": {
+              "rawCode": "311-عال",
+              "normalizedCode": "CS-311",
+              "prefix": "CS",
+              "number": "311"
+            }
+          },
+          "name": "Design and Analysis of Algorithms",
+          "name_ar": "تحليل وتصميم الخوارزميات",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "CS-102"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "330-عال",
+              "normalizedCode": "عال-330",
+              "prefix": "عال",
+              "number": "330"
+            },
+            "en": {
+              "rawCode": "330-عال",
+              "normalizedCode": "CS-330",
+              "prefix": "CS",
+              "number": "330"
+            }
+          },
+          "name": "Introduction to Operating Systems",
+          "name_ar": "مقدمة في نظم التشغيل",
+          "hours": 4,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "CS-210"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "345-عال",
+              "normalizedCode": "عال-345",
+              "prefix": "عال",
+              "number": "345"
+            },
+            "en": {
+              "rawCode": "345-عال",
+              "normalizedCode": "CS-345",
+              "prefix": "CS",
+              "number": "345"
+            }
+          },
+          "name": "Mobile Application Programming",
+          "name_ar": "برمجة تطبيقات الجوال",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "CS-102"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "310-عال",
+              "normalizedCode": "عال-310",
+              "prefix": "عال",
+              "number": "310"
+            },
+            "en": {
+              "rawCode": "310-عال",
+              "normalizedCode": "CS-310",
+              "prefix": "CS",
+              "number": "310"
+            }
+          },
+          "name": "Seminar in Computing",
+          "name_ar": "حلقة بحث",
+          "hours": 1,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "63_HOURS"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "203 نجم",
+              "normalizedCode": "نجم-203",
+              "prefix": "نجم",
+              "number": "203"
+            },
+            "en": {
+              "rawCode": "203 نجم",
+              "normalizedCode": "ENGL-203",
+              "prefix": "ENGL",
+              "number": "203"
+            }
+          },
+          "name": "Research Writing Skills",
+          "name_ar": "مهارات كتابة الأبحاث",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": null,
+          "sections": []
+        }
+      ]
+    },
+    {
+      "level_id": 7,
+      "level_label": "السابع",
+      "courses": [
+        {
+          "code": {
+            "ar": {
+              "rawCode": "472-عال",
+              "normalizedCode": "عال-472",
+              "prefix": "عال",
+              "number": "472"
+            },
+            "en": {
+              "rawCode": "472-عال",
+              "normalizedCode": "CS-472",
+              "prefix": "CS",
+              "number": "472"
+            }
+          },
+          "name": "Software Requirements Engineering",
+          "name_ar": "هندسة متطلبات البرمجيات",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "CS-102"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "344-هال",
+              "normalizedCode": "هال-344",
+              "prefix": "هال",
+              "number": "344"
+            },
+            "en": {
+              "rawCode": "344-هال",
+              "normalizedCode": "COE-344",
+              "prefix": "COE",
+              "number": "344"
+            }
+          },
+          "name": "Computer Networks",
+          "name_ar": "شبكات الحاسب",
+          "hours": 4,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "462-عال",
+              "normalizedCode": "عال-462",
+              "prefix": "عال",
+              "number": "462"
+            },
+            "en": {
+              "rawCode": "462-عال",
+              "normalizedCode": "CS-462",
+              "prefix": "CS",
+              "number": "462"
+            }
+          },
+          "name": "Distributed Systems",
+          "name_ar": "الأنظمة الموزعة",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "STAT-219"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "سلم-xxx",
+              "normalizedCode": "سلم-xxx",
+              "prefix": "سلم",
+              "number": "xxx"
+            },
+            "en": {
+              "rawCode": "IC.XXX",
+              "normalizedCode": "IC-XXX",
+              "prefix": "IC",
+              "number": "xxx"
+            }
+          },
+          "name": "Islamic Elective III",
+          "name_ar": "اختياري إسلامي 3",
+          "hours": 2,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "islamic",
+          "prerequisites": [
+            {
+              "code": "IC-101"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "365-عال",
+              "normalizedCode": "عال-365",
+              "prefix": "عال",
+              "number": "365"
+            },
+            "en": {
+              "rawCode": "365-عال",
+              "normalizedCode": "CS-365",
+              "prefix": "CS",
+              "number": "365"
+            }
+          },
+          "name": "Human Computer Interaction",
+          "name_ar": "التفاعلية بين الإنسان والحاسب",
+          "hours": 4,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": null,
+          "sections": []
+        }
+      ]
+    },
+    {
+      "level_id": 8,
+      "level_label": "الثامن",
+      "courses": [
+        {
+          "code": {
+            "ar": {
+              "rawCode": "478-عال",
+              "normalizedCode": "عال-478",
+              "prefix": "عال",
+              "number": "478"
+            },
+            "en": {
+              "rawCode": "478-عال",
+              "normalizedCode": "CS-478",
+              "prefix": "CS",
+              "number": "478"
+            }
+          },
+          "name": "Software Construction Laboratory",
+          "name_ar": "معمل بناء البرمجيات",
+          "hours": 4,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": null,
+          "sections": [],
+          "isLab": true
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "عال-xxx",
+              "normalizedCode": "عال-xxx",
+              "prefix": "عال",
+              "number": "xxx"
+            },
+            "en": {
+              "rawCode": "CS-XXX",
+              "normalizedCode": "CS-XXX",
+              "prefix": "CS",
+              "number": "xxx"
+            }
+          },
+          "name": "Software Engineering Elective I",
+          "name_ar": "هندسة برمجيات اختياري 1",
+          "hours": 3,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "se_elective",
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "1xx xxxx",
+              "normalizedCode": "حرة-1",
+              "prefix": "حرة",
+              "number": "1"
+            },
+            "en": {
+              "rawCode": "1xx xxxx",
+              "normalizedCode": "FREE-1",
+              "prefix": "FREE",
+              "number": "1"
+            }
+          },
+          "name": "Free Elective I",
+          "name_ar": "اختياري حر 1",
+          "hours": 3,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "free",
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "484-عال",
+              "normalizedCode": "عال-484",
+              "prefix": "عال",
+              "number": "484"
+            },
+            "en": {
+              "rawCode": "484-عال",
+              "normalizedCode": "CS-484",
+              "prefix": "CS",
+              "number": "484"
+            }
+          },
+          "name": "Software configuration and Evolution",
+          "name_ar": "صيانة وتطوير البرمجيات",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "444-عال",
+              "normalizedCode": "عال-444",
+              "prefix": "عال",
+              "number": "444"
+            },
+            "en": {
+              "rawCode": "444-عال",
+              "normalizedCode": "CS-444",
+              "prefix": "CS",
+              "number": "444"
+            }
+          },
+          "name": "Software Quality Assurance",
+          "name_ar": "ضمان جودة البرمجيات",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "490-عال",
+              "normalizedCode": "عال-490",
+              "prefix": "عال",
+              "number": "490"
+            },
+            "en": {
+              "rawCode": "490-عال",
+              "normalizedCode": "CS-490",
+              "prefix": "CS",
+              "number": "490"
+            }
+          },
+          "name": "Internship",
+          "name_ar": "فترة تدريب",
+          "hours": 1,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "126_HOURS"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "480-عال",
+              "normalizedCode": "عال-480",
+              "prefix": "عال",
+              "number": "480"
+            },
+            "en": {
+              "rawCode": "480-عال",
+              "normalizedCode": "CS-480",
+              "prefix": "CS",
+              "number": "480"
+            }
+          },
+          "name": "Advanced Web Applications Engineering",
+          "name_ar": "هندسة تطبيقات الويب المتقدمة",
+          "hours": 3,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "se_elective",
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "482-عال",
+              "normalizedCode": "عال-482",
+              "prefix": "عال",
+              "number": "482"
+            },
+            "en": {
+              "rawCode": "482-عال",
+              "normalizedCode": "CS-482",
+              "prefix": "CS",
+              "number": "482"
+            }
+          },
+          "name": "Selected Topics in Software Engineering",
+          "name_ar": "موضوعات مختارة في هندسة البرمجيات",
+          "hours": 3,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "se_elective",
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "486-عال",
+              "normalizedCode": "عال-486",
+              "prefix": "عال",
+              "number": "486"
+            },
+            "en": {
+              "rawCode": "CS-486",
+              "normalizedCode": "CS-486",
+              "prefix": "CS",
+              "number": "486"
+            }
+          },
+          "name": "Complex Systems Engineering",
+          "name_ar": "هندسة النظم المعقدة",
+          "hours": 3,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "se_elective",
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "488-عال",
+              "normalizedCode": "عال-488",
+              "prefix": "عال",
+              "number": "488"
+            },
+            "en": {
+              "rawCode": "CS-488",
+              "normalizedCode": "CS-488",
+              "prefix": "CS",
+              "number": "488"
+            }
+          },
+          "name": "Software Project Management",
+          "name_ar": "إدارة مشاريع البرمجيات",
+          "hours": 3,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "se_elective",
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "492-عال",
+              "normalizedCode": "عال-492",
+              "prefix": "عال",
+              "number": "492"
+            },
+            "en": {
+              "rawCode": "CS-492",
+              "normalizedCode": "CS-492",
+              "prefix": "CS",
+              "number": "492"
+            }
+          },
+          "name": "Game Programming",
+          "name_ar": "برمجة الألعاب",
+          "hours": 3,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "se_elective",
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "487-عال",
+              "normalizedCode": "عال-487",
+              "prefix": "عال",
+              "number": "487"
+            },
+            "en": {
+              "rawCode": "CS-487",
+              "normalizedCode": "CS-487",
+              "prefix": "CS",
+              "number": "487"
+            }
+          },
+          "name": "Formal Methods and Models in Software Engineering",
+          "name_ar": "الأساليب والنماذج الشكلية في هندسة البرمجيات",
+          "hours": 3,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "se_elective",
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "491-عال",
+              "normalizedCode": "عال-491",
+              "prefix": "عال",
+              "number": "491"
+            },
+            "en": {
+              "rawCode": "CS-491",
+              "normalizedCode": "CS-491",
+              "prefix": "CS",
+              "number": "491"
+            }
+          },
+          "name": "Software Re-Engineering",
+          "name_ar": "إعادة هندسة البرمجيات",
+          "hours": 3,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "se_elective",
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "421-عال",
+              "normalizedCode": "عال-421",
+              "prefix": "عال",
+              "number": "421"
+            },
+            "en": {
+              "rawCode": "CS-421",
+              "normalizedCode": "CS-421",
+              "prefix": "CS",
+              "number": "421"
+            }
+          },
+          "name": "Compiler Constructions",
+          "name_ar": "بناء المترجمات",
+          "hours": 3,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "se_elective",
+          "prerequisites": null,
+          "sections": []
+        }
+      ]
+    },
+    {
+      "level_id": 9,
+      "level_label": "التاسع",
+      "courses": [
+        {
+          "code": {
+            "ar": {
+              "rawCode": "476-عال",
+              "normalizedCode": "عال-476",
+              "prefix": "عال",
+              "number": "476"
+            },
+            "en": {
+              "rawCode": "476-عال",
+              "normalizedCode": "CS-476",
+              "prefix": "CS",
+              "number": "476"
+            }
+          },
+          "name": "Software Testing and Validation",
+          "name_ar": "الاختبار والتحقق في البرمجيات",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "عال-xxx",
+              "normalizedCode": "عال-xxx",
+              "prefix": "عال",
+              "number": "xxx"
+            },
+            "en": {
+              "rawCode": "CS-XXX",
+              "normalizedCode": "CS-XXX",
+              "prefix": "CS",
+              "number": "xxx"
+            }
+          },
+          "name": "Software Engineering Elective II",
+          "name_ar": "هندسة برمجيات اختياري 2",
+          "hours": 3,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "se_elective",
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "498-عال",
+              "normalizedCode": "عال-498",
+              "prefix": "عال",
+              "number": "498"
+            },
+            "en": {
+              "rawCode": "498-عال",
+              "normalizedCode": "CS-498",
+              "prefix": "CS",
+              "number": "498"
+            }
+          },
+          "name": "Senior Project I",
+          "name_ar": "مشروع تخرج 1",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "474-عال",
+              "normalizedCode": "عال-474",
+              "prefix": "عال",
+              "number": "474"
+            },
+            "en": {
+              "rawCode": "474-عال",
+              "normalizedCode": "CS-474",
+              "prefix": "CS",
+              "number": "474"
+            }
+          },
+          "name": "Software Design and Architecture",
+          "name_ar": "تصميم وعمارة البرمجيات",
+          "hours": 4,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": null,
+          "sections": []
+        }
+      ]
+    },
+    {
+      "level_id": 10,
+      "level_label": "العاشر",
+      "courses": [
+        {
+          "code": {
+            "ar": {
+              "rawCode": "432-عال",
+              "normalizedCode": "عال-432",
+              "prefix": "عال",
+              "number": "432"
+            },
+            "en": {
+              "rawCode": "432-عال",
+              "normalizedCode": "CS-432",
+              "prefix": "CS",
+              "number": "432"
+            }
+          },
+          "name": "Software Security Engineering",
+          "name_ar": "هندسة أمن البرمجيات",
+          "hours": 4,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "عال-xxx",
+              "normalizedCode": "عال-xxx",
+              "prefix": "عال",
+              "number": "xxx"
+            },
+            "en": {
+              "rawCode": "CS-XXX",
+              "normalizedCode": "CS-XXX",
+              "prefix": "CS",
+              "number": "xxx"
+            }
+          },
+          "name": "Software Engineering Elective III",
+          "name_ar": "هندسة برمجيات اختياري 3",
+          "hours": 3,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "se_elective",
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "499-عال",
+              "normalizedCode": "عال-499",
+              "prefix": "عال",
+              "number": "499"
+            },
+            "en": {
+              "rawCode": "499-عال",
+              "normalizedCode": "CS-499",
+              "prefix": "CS",
+              "number": "499"
+            }
+          },
+          "name": "Senior Project II",
+          "name_ar": "مشروع تخرج 2",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "CS-498"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "2xx xxxx",
+              "normalizedCode": "حرة-2",
+              "prefix": "حرة",
+              "number": "2"
+            },
+            "en": {
+              "rawCode": "2xx xxxx",
+              "normalizedCode": "FREE-2",
+              "prefix": "FREE",
+              "number": "2"
+            }
+          },
+          "name": "Free Elective II",
+          "name_ar": "اختياري حر 2",
+          "hours": 3,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "free",
+          "prerequisites": null,
+          "sections": []
+        }
+      ]
+    }
+  ]
+}

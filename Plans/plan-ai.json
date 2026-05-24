@@ -1,0 +1,1683 @@
+{
+  "studentName": "",
+  "gender": 0,
+  "major": "Artificial Intelligence Program",
+  "major_ar": "برنامج الذكاء الاصطناعي",
+  "totalHours": 134,
+  "electiveGroups": {
+    "islamic": {
+      "label": "اختياري إسلامي",
+      "requiredHours": 6,
+      "totalSlots": 3
+    },
+    "ai_elective": {
+      "label": "ذكاء اختياري",
+      "requiredHours": 9,
+      "totalSlots": 3
+    }
+  },
+  "levels": [
+    {
+      "level_id": 1,
+      "level_label": "الأول",
+      "courses": [
+        {
+          "code": {
+            "ar": {
+              "rawCode": "نجم-101",
+              "normalizedCode": "نجم-101",
+              "prefix": "نجم",
+              "number": "101"
+            },
+            "en": {
+              "rawCode": "نجم-101",
+              "normalizedCode": "ENGL-101",
+              "prefix": "ENGL",
+              "number": "101"
+            }
+          },
+          "name": "English I",
+          "name_ar": "لغة إنجليزية 1",
+          "hours": 6,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "ريض-101",
+              "normalizedCode": "ريض-101",
+              "prefix": "ريض",
+              "number": "101"
+            },
+            "en": {
+              "rawCode": "ريض-101",
+              "normalizedCode": "MATH-101",
+              "prefix": "MATH",
+              "number": "101"
+            }
+          },
+          "name": "Calculus I",
+          "name_ar": "تفاضل وتكامل 1",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "تصال-101",
+              "normalizedCode": "تصال-101",
+              "prefix": "تصال",
+              "number": "101"
+            },
+            "en": {
+              "rawCode": "تصال-101",
+              "normalizedCode": "LS-101",
+              "prefix": "LS",
+              "number": "101"
+            }
+          },
+          "name": "Learning skills",
+          "name_ar": "مهارات التعلم",
+          "hours": 2,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "دار-101",
+              "normalizedCode": "دار-101",
+              "prefix": "دار",
+              "number": "101"
+            },
+            "en": {
+              "rawCode": "دار-101",
+              "normalizedCode": "MGT-101",
+              "prefix": "MGT",
+              "number": "101"
+            }
+          },
+          "name": "Entrepreneurship",
+          "name_ar": "ريادة الأعمال",
+          "hours": 1,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "عرب-101",
+              "normalizedCode": "عرب-101",
+              "prefix": "عرب",
+              "number": "101"
+            },
+            "en": {
+              "rawCode": "عرب-101",
+              "normalizedCode": "ARAB-101",
+              "prefix": "ARAB",
+              "number": "101"
+            }
+          },
+          "name": "Arabic Language",
+          "name_ar": "المهارات اللغوية",
+          "hours": 2,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "سلم-101",
+              "normalizedCode": "سلم-101",
+              "prefix": "سلم",
+              "number": "101"
+            },
+            "en": {
+              "rawCode": "سلم-101",
+              "normalizedCode": "IC-101",
+              "prefix": "IC",
+              "number": "101"
+            }
+          },
+          "name": "Introduction to Islamic Culture",
+          "name_ar": "المدخل الى الإسلامية",
+          "hours": 2,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": null,
+          "sections": []
+        }
+      ]
+    },
+    {
+      "level_id": 2,
+      "level_label": "الثاني",
+      "courses": [
+        {
+          "code": {
+            "ar": {
+              "rawCode": "نجم-102",
+              "normalizedCode": "نجم-102",
+              "prefix": "نجم",
+              "number": "102"
+            },
+            "en": {
+              "rawCode": "نجم-102",
+              "normalizedCode": "ENGL-102",
+              "prefix": "ENGL",
+              "number": "102"
+            }
+          },
+          "name": "English II",
+          "name_ar": "لغة إنجليزية 2",
+          "hours": 6,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "ENGL-101"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "فيز-101",
+              "normalizedCode": "فيز-101",
+              "prefix": "فيز",
+              "number": "101"
+            },
+            "en": {
+              "rawCode": "فيز-101",
+              "normalizedCode": "PHYS-101",
+              "prefix": "PHYS",
+              "number": "101"
+            }
+          },
+          "name": "General Physics I",
+          "name_ar": "فيزياء عامة 1",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "MATH-101"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "فيز-103",
+              "normalizedCode": "فيز-103",
+              "prefix": "فيز",
+              "number": "103"
+            },
+            "en": {
+              "rawCode": "فيز-103",
+              "normalizedCode": "PHYS-103",
+              "prefix": "PHYS",
+              "number": "103"
+            }
+          },
+          "name": "Physics Lab I",
+          "name_ar": "معمل فيزياء 1",
+          "hours": 1,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "MATH-101"
+            }
+          ],
+          "sections": [],
+          "isLab": true
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "عال-111",
+              "normalizedCode": "عال-111",
+              "prefix": "عال",
+              "number": "111"
+            },
+            "en": {
+              "rawCode": "عال-111",
+              "normalizedCode": "CS-111",
+              "prefix": "CS",
+              "number": "111"
+            }
+          },
+          "name": "Computer Skills",
+          "name_ar": "مهارات حاسب",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "ريض-102",
+              "normalizedCode": "ريض-102",
+              "prefix": "ريض",
+              "number": "102"
+            },
+            "en": {
+              "rawCode": "ريض-102",
+              "normalizedCode": "MATH-102",
+              "prefix": "MATH",
+              "number": "102"
+            }
+          },
+          "name": "Calculus II",
+          "name_ar": "تفاضل وتكامل 2",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "MATH-101"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "بدن-101",
+              "normalizedCode": "بدن-101",
+              "prefix": "بدن",
+              "number": "101"
+            },
+            "en": {
+              "rawCode": "بدن-101",
+              "normalizedCode": "PE-101",
+              "prefix": "PE",
+              "number": "101"
+            }
+          },
+          "name": "Physical Educ.",
+          "name_ar": "تربية بدنية",
+          "hours": 1,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": null,
+          "sections": []
+        }
+      ]
+    },
+    {
+      "level_id": 3,
+      "level_label": "الثالث",
+      "courses": [
+        {
+          "code": {
+            "ar": {
+              "rawCode": "عال-101",
+              "normalizedCode": "عال-101",
+              "prefix": "عال",
+              "number": "101"
+            },
+            "en": {
+              "rawCode": "عال-101",
+              "normalizedCode": "CS-101",
+              "prefix": "CS",
+              "number": "101"
+            }
+          },
+          "name": "Computer Programming I",
+          "name_ar": "برمجة حاسب 1",
+          "hours": 4,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "MATH-101"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "احص-219",
+              "normalizedCode": "احص-219",
+              "prefix": "احص",
+              "number": "219"
+            },
+            "en": {
+              "rawCode": "احص-219",
+              "normalizedCode": "STAT-219",
+              "prefix": "STAT",
+              "number": "219"
+            }
+          },
+          "name": "Prob. & Stat. For Eng. & Sc.",
+          "name_ar": "احتمالات واحصاء للهندسة والعلوم",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "MATH-102"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "نجم-201",
+              "normalizedCode": "نجم-201",
+              "prefix": "نجم",
+              "number": "201"
+            },
+            "en": {
+              "rawCode": "نجم-201",
+              "normalizedCode": "ENGL-201",
+              "prefix": "ENGL",
+              "number": "201"
+            }
+          },
+          "name": "English Writing I",
+          "name_ar": "مدخل لتحليل النصوص",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "ENGL-102"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "سلم-xxx",
+              "normalizedCode": "سلم-xxx",
+              "prefix": "سلم",
+              "number": "xxx"
+            },
+            "en": {
+              "rawCode": "سلم-xxx",
+              "normalizedCode": "IC-XXX",
+              "prefix": "IC",
+              "number": "xxx"
+            }
+          },
+          "name": "Islamic Elective I",
+          "name_ar": "اختياري إسلامي 1",
+          "hours": 2,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "islamic",
+          "prerequisites": [
+            {
+              "code": "IC-101"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "ذكا-270",
+              "normalizedCode": "ذكا-270",
+              "prefix": "ذكا",
+              "number": "270"
+            },
+            "en": {
+              "rawCode": "ذكا-270",
+              "normalizedCode": "AI-270",
+              "prefix": "AI",
+              "number": "270"
+            }
+          },
+          "name": "Introduction to Artificial Intelligence",
+          "name_ar": "مقدمة في الذكاء الاصطناعي",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "MATH-101"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "عرب-202",
+              "normalizedCode": "عرب-202",
+              "prefix": "عرب",
+              "number": "202"
+            },
+            "en": {
+              "rawCode": "عرب-202",
+              "normalizedCode": "ARAB-202",
+              "prefix": "ARAB",
+              "number": "202"
+            }
+          },
+          "name": "Arabic Editing",
+          "name_ar": "التحرير العربي",
+          "hours": 2,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "ARAB-101"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "سلم 203",
+              "normalizedCode": "سلم-203",
+              "prefix": "سلم",
+              "number": "203"
+            },
+            "en": {
+              "rawCode": "سلم 203",
+              "normalizedCode": "IC-203",
+              "prefix": "IC",
+              "number": "203"
+            }
+          },
+          "name": "Islam and Community Building",
+          "name_ar": "الإسلام وبناء المجتمع",
+          "hours": 2,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "islamic",
+          "prerequisites": [
+            {
+              "code": "IC-101"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "سلم 306",
+              "normalizedCode": "سلم-306",
+              "prefix": "سلم",
+              "number": "306"
+            },
+            "en": {
+              "rawCode": "سلم 306",
+              "normalizedCode": "IC-306",
+              "prefix": "IC",
+              "number": "306"
+            }
+          },
+          "name": "Islamic Economic System",
+          "name_ar": "النظام الاقتصادي في الإسلام",
+          "hours": 2,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "islamic",
+          "prerequisites": [
+            {
+              "code": "IC-101"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "سلم-205",
+              "normalizedCode": "سلم-205",
+              "prefix": "سلم",
+              "number": "205"
+            },
+            "en": {
+              "rawCode": "سلم-205",
+              "normalizedCode": "IC-205",
+              "prefix": "IC",
+              "number": "205"
+            }
+          },
+          "name": "Family in Islam",
+          "name_ar": "الأسرة وبناء المجتمع",
+          "hours": 2,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "islamic",
+          "prerequisites": [
+            {
+              "code": "IC-101"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "سلم 410",
+              "normalizedCode": "سلم-410",
+              "prefix": "سلم",
+              "number": "410"
+            },
+            "en": {
+              "rawCode": "سلم 410",
+              "normalizedCode": "IC-410",
+              "prefix": "IC",
+              "number": "410"
+            }
+          },
+          "name": "Biography of the Prophet",
+          "name_ar": "السيرة النبوية",
+          "hours": 2,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "islamic",
+          "prerequisites": [
+            {
+              "code": "IC-101"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "سلم 408",
+              "normalizedCode": "سلم-408",
+              "prefix": "سلم",
+              "number": "408"
+            },
+            "en": {
+              "rawCode": "سلم 408",
+              "normalizedCode": "IC-408",
+              "prefix": "IC",
+              "number": "408"
+            }
+          },
+          "name": "Islamic Political System",
+          "name_ar": "النظام السياسي في الإسلام",
+          "hours": 2,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "islamic",
+          "prerequisites": [
+            {
+              "code": "IC-101"
+            }
+          ],
+          "sections": []
+        }
+      ]
+    },
+    {
+      "level_id": 4,
+      "level_label": "الرابع",
+      "courses": [
+        {
+          "code": {
+            "ar": {
+              "rawCode": "عال-102",
+              "normalizedCode": "عال-102",
+              "prefix": "عال",
+              "number": "102"
+            },
+            "en": {
+              "rawCode": "عال-102",
+              "normalizedCode": "CS-102",
+              "prefix": "CS",
+              "number": "102"
+            }
+          },
+          "name": "Computer Programming II",
+          "name_ar": "برمجة حاسب 2",
+          "hours": 4,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "CS-101"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "عال-225",
+              "normalizedCode": "عال-225",
+              "prefix": "عال",
+              "number": "225"
+            },
+            "en": {
+              "rawCode": "عال-225",
+              "normalizedCode": "CS-225",
+              "prefix": "CS",
+              "number": "225"
+            }
+          },
+          "name": "Software Engineering Design and Development",
+          "name_ar": "تصميم وتطوير البرمجيات الهندسية",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "CS-101"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "عال-340",
+              "normalizedCode": "عال-340",
+              "prefix": "عال",
+              "number": "340"
+            },
+            "en": {
+              "rawCode": "عال-340",
+              "normalizedCode": "CS-340",
+              "prefix": "CS",
+              "number": "340"
+            }
+          },
+          "name": "Introduction to Database Systems",
+          "name_ar": "مقدمة في نظم قواعد البيانات",
+          "hours": 4,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "CS-101"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "سلم-xxx",
+              "normalizedCode": "سلم-xxx",
+              "prefix": "سلم",
+              "number": "xxx"
+            },
+            "en": {
+              "rawCode": "سلم-xxx",
+              "normalizedCode": "IC-XXX",
+              "prefix": "IC",
+              "number": "xxx"
+            }
+          },
+          "name": "Islamic Elective 2",
+          "name_ar": "اختياري إسلامي 2",
+          "hours": 2,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "islamic",
+          "prerequisites": [
+            {
+              "code": "IC-101"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "ذكا-271",
+              "normalizedCode": "ذكا-271",
+              "prefix": "ذكا",
+              "number": "271"
+            },
+            "en": {
+              "rawCode": "ذكا-271",
+              "normalizedCode": "AI-271",
+              "prefix": "AI",
+              "number": "271"
+            }
+          },
+          "name": "Machine Learning",
+          "name_ar": "التعلم الآلي",
+          "hours": 4,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "AI-270"
+            }
+          ],
+          "sections": []
+        }
+      ]
+    },
+    {
+      "level_id": 5,
+      "level_label": "الخامس",
+      "courses": [
+        {
+          "code": {
+            "ar": {
+              "rawCode": "عال-210",
+              "normalizedCode": "عال-210",
+              "prefix": "عال",
+              "number": "210"
+            },
+            "en": {
+              "rawCode": "عال-210",
+              "normalizedCode": "CS-210",
+              "prefix": "CS",
+              "number": "210"
+            }
+          },
+          "name": "Data Structures and Algorithms",
+          "name_ar": "تراكيب البيانات والخوارزميات",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "CS-102"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "عال-285",
+              "normalizedCode": "عال-285",
+              "prefix": "عال",
+              "number": "285"
+            },
+            "en": {
+              "rawCode": "عال-285",
+              "normalizedCode": "CS-285",
+              "prefix": "CS",
+              "number": "285"
+            }
+          },
+          "name": "Discrete Math for Computer",
+          "name_ar": "رياضيات متقطعة",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "MATH-102"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "ذكا-370",
+              "normalizedCode": "ذكا-370",
+              "prefix": "ذكا",
+              "number": "370"
+            },
+            "en": {
+              "rawCode": "ذكا-370",
+              "normalizedCode": "AI-370",
+              "prefix": "AI",
+              "number": "370"
+            }
+          },
+          "name": "Data Mining and Information Retrieval",
+          "name_ar": "التنقيب عن البيانات واسترجاع المعلومات",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "CS-340"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "ذكا-371",
+              "normalizedCode": "ذكا-371",
+              "prefix": "ذكا",
+              "number": "371"
+            },
+            "en": {
+              "rawCode": "ذكا-371",
+              "normalizedCode": "AI-371",
+              "prefix": "AI",
+              "number": "371"
+            }
+          },
+          "name": "Deep and Re-enforcement Learning",
+          "name_ar": "التعلم العميق والتعلم المعزز",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "AI-270"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "هال-344",
+              "normalizedCode": "هال-344",
+              "prefix": "هال",
+              "number": "344"
+            },
+            "en": {
+              "rawCode": "هال-344",
+              "normalizedCode": "COE-344",
+              "prefix": "COE",
+              "number": "344"
+            }
+          },
+          "name": "Computer Networks",
+          "name_ar": "شبكات حاسب",
+          "hours": 4,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "سلم-xxx",
+              "normalizedCode": "سلم-xxx",
+              "prefix": "سلم",
+              "number": "xxx"
+            },
+            "en": {
+              "rawCode": "سلم-xxx",
+              "normalizedCode": "IC-XXX",
+              "prefix": "IC",
+              "number": "xxx"
+            }
+          },
+          "name": "IC elective III",
+          "name_ar": "اختياري إسلامي 3",
+          "hours": 2,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "islamic",
+          "prerequisites": [
+            {
+              "code": "IC-101"
+            }
+          ],
+          "sections": []
+        }
+      ]
+    },
+    {
+      "level_id": 6,
+      "level_label": "السادس",
+      "courses": [
+        {
+          "code": {
+            "ar": {
+              "rawCode": "ذكا-372",
+              "normalizedCode": "ذكا-372",
+              "prefix": "ذكا",
+              "number": "372"
+            },
+            "en": {
+              "rawCode": "ذكا-372",
+              "normalizedCode": "AI-372",
+              "prefix": "AI",
+              "number": "372"
+            }
+          },
+          "name": "Artificial Neural Networks",
+          "name_ar": "الشبكات العصبية الاصطناعية",
+          "hours": 4,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "AI-271"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "ذكا-373",
+              "normalizedCode": "ذكا-373",
+              "prefix": "ذكا",
+              "number": "373"
+            },
+            "en": {
+              "rawCode": "ذكا-373",
+              "normalizedCode": "AI-373",
+              "prefix": "AI",
+              "number": "373"
+            }
+          },
+          "name": "Artificial Intelligence Algorithms",
+          "name_ar": "خوارزميات الذكاء الاصطناعي",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "AI-270"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "عال-330",
+              "normalizedCode": "عال-330",
+              "prefix": "عال",
+              "number": "330"
+            },
+            "en": {
+              "rawCode": "عال-330",
+              "normalizedCode": "CS-330",
+              "prefix": "CS",
+              "number": "330"
+            }
+          },
+          "name": "Introduction to Operating Systems",
+          "name_ar": "أنظمة التشغيل",
+          "hours": 4,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "CS-210"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "عال-291",
+              "normalizedCode": "عال-291",
+              "prefix": "عال",
+              "number": "291"
+            },
+            "en": {
+              "rawCode": "عال-291",
+              "normalizedCode": "CS-291",
+              "prefix": "CS",
+              "number": "291"
+            }
+          },
+          "name": "Computer Data Security and Privacy",
+          "name_ar": "أمن بيانات الكمبيوتر والخصوصية",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "ذكا-490",
+              "normalizedCode": "ذكا-490",
+              "prefix": "ذكا",
+              "number": "490"
+            },
+            "en": {
+              "rawCode": "ذكا-490",
+              "normalizedCode": "AI-490",
+              "prefix": "AI",
+              "number": "490"
+            }
+          },
+          "name": "Internship",
+          "name_ar": "التدريب العملي",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "95_HOURS"
+            }
+          ],
+          "sections": []
+        }
+      ]
+    },
+    {
+      "level_id": 7,
+      "level_label": "السابع",
+      "courses": [
+        {
+          "code": {
+            "ar": {
+              "rawCode": "ذكا-471",
+              "normalizedCode": "ذكا-471",
+              "prefix": "ذكا",
+              "number": "471"
+            },
+            "en": {
+              "rawCode": "ذكا-471",
+              "normalizedCode": "AI-471",
+              "prefix": "AI",
+              "number": "471"
+            }
+          },
+          "name": "Computer Vision and Image Processing",
+          "name_ar": "الرؤية الحاسوبية ومعالجة الصور",
+          "hours": 4,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "AI-271"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "ذكا-472",
+              "normalizedCode": "ذكا-472",
+              "prefix": "ذكا",
+              "number": "472"
+            },
+            "en": {
+              "rawCode": "ذكا-472",
+              "normalizedCode": "AI-472",
+              "prefix": "AI",
+              "number": "472"
+            }
+          },
+          "name": "Artificial Intelligence Applications Programming",
+          "name_ar": "برمجة تطبيقات الذكاء الاصطناعي",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "AI-373"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "ذكا-473",
+              "normalizedCode": "ذكا-473",
+              "prefix": "ذكا",
+              "number": "473"
+            },
+            "en": {
+              "rawCode": "ذكا-473",
+              "normalizedCode": "AI-473",
+              "prefix": "AI",
+              "number": "473"
+            }
+          },
+          "name": "Natural Language Processing",
+          "name_ar": "معالجة اللغات الطبيعية",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "AI-271"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "ذكا-xxx",
+              "normalizedCode": "ذكا-xxx",
+              "prefix": "ذكا",
+              "number": "xxx"
+            },
+            "en": {
+              "rawCode": "ذكا-xxx",
+              "normalizedCode": "AI-XXX",
+              "prefix": "AI",
+              "number": "xxx"
+            }
+          },
+          "name": "AI Elective I",
+          "name_ar": "ذكاء اختياري 1",
+          "hours": 3,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "ai_elective",
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "ذكا-498",
+              "normalizedCode": "ذكا-498",
+              "prefix": "ذكا",
+              "number": "498"
+            },
+            "en": {
+              "rawCode": "ذكا-498",
+              "normalizedCode": "AI-498",
+              "prefix": "AI",
+              "number": "498"
+            }
+          },
+          "name": "Senior Project I",
+          "name_ar": "مشروع التخرج 1",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "ذكا-450",
+              "normalizedCode": "ذكا-450",
+              "prefix": "ذكا",
+              "number": "450"
+            },
+            "en": {
+              "rawCode": "ذكا-450",
+              "normalizedCode": "AI-450",
+              "prefix": "AI",
+              "number": "450"
+            }
+          },
+          "name": "Expert Systems and Decision Support Systems",
+          "name_ar": "النظم الخبيرة ونظم دعم القرار",
+          "hours": 3,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "ai_elective",
+          "prerequisites": [
+            {
+              "code": "AI-270"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "ذكا-451",
+              "normalizedCode": "ذكا-451",
+              "prefix": "ذكا",
+              "number": "451"
+            },
+            "en": {
+              "rawCode": "ذكا-451",
+              "normalizedCode": "AI-451",
+              "prefix": "AI",
+              "number": "451"
+            }
+          },
+          "name": "Advanced Machine Learning",
+          "name_ar": "تعلم آلي متقدم",
+          "hours": 3,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "ai_elective",
+          "prerequisites": [
+            {
+              "code": "AI-270"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "ذكا-452",
+              "normalizedCode": "ذكا-452",
+              "prefix": "ذكا",
+              "number": "452"
+            },
+            "en": {
+              "rawCode": "ذكا-452",
+              "normalizedCode": "AI-452",
+              "prefix": "AI",
+              "number": "452"
+            }
+          },
+          "name": "Human Computer Interaction",
+          "name_ar": "التفاعل بين الإنسان والحاسب",
+          "hours": 3,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "ai_elective",
+          "prerequisites": [
+            {
+              "code": "AI-270"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "ذكا-453",
+              "normalizedCode": "ذكا-453",
+              "prefix": "ذكا",
+              "number": "453"
+            },
+            "en": {
+              "rawCode": "ذكا-453",
+              "normalizedCode": "AI-453",
+              "prefix": "AI",
+              "number": "453"
+            }
+          },
+          "name": "Big Data Analytics",
+          "name_ar": "تحليل البيانات الضخمة",
+          "hours": 3,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "ai_elective",
+          "prerequisites": [
+            {
+              "code": "AI-270"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "ذكا-454",
+              "normalizedCode": "ذكا-454",
+              "prefix": "ذكا",
+              "number": "454"
+            },
+            "en": {
+              "rawCode": "ذكا-454",
+              "normalizedCode": "AI-454",
+              "prefix": "AI",
+              "number": "454"
+            }
+          },
+          "name": "AI in Game Development",
+          "name_ar": "الذكاء الاصطناعي في تطوير الألعاب",
+          "hours": 3,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "ai_elective",
+          "prerequisites": [
+            {
+              "code": "AI-270"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "ذكا-455",
+              "normalizedCode": "ذكا-455",
+              "prefix": "ذكا",
+              "number": "455"
+            },
+            "en": {
+              "rawCode": "ذكا-455",
+              "normalizedCode": "AI-455",
+              "prefix": "AI",
+              "number": "455"
+            }
+          },
+          "name": "AI in Health Care",
+          "name_ar": "الذكاء الاصطناعي في الرعاية الصحية",
+          "hours": 3,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "ai_elective",
+          "prerequisites": [
+            {
+              "code": "AI-270"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "ذكا-456",
+              "normalizedCode": "ذكا-456",
+              "prefix": "ذكا",
+              "number": "456"
+            },
+            "en": {
+              "rawCode": "ذكا-456",
+              "normalizedCode": "AI-456",
+              "prefix": "AI",
+              "number": "456"
+            }
+          },
+          "name": "Cognitive Computing",
+          "name_ar": "الحوسبة المعرفية",
+          "hours": 3,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "ai_elective",
+          "prerequisites": [
+            {
+              "code": "AI-270"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "ذكا-457",
+              "normalizedCode": "ذكا-457",
+              "prefix": "ذكا",
+              "number": "457"
+            },
+            "en": {
+              "rawCode": "ذكا-457",
+              "normalizedCode": "AI-457",
+              "prefix": "AI",
+              "number": "457"
+            }
+          },
+          "name": "Applications of AI",
+          "name_ar": "تطبيقات الذكاء الاصطناعي",
+          "hours": 3,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "ai_elective",
+          "prerequisites": [
+            {
+              "code": "AI-270"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "ذكا-458",
+              "normalizedCode": "ذكا-458",
+              "prefix": "ذكا",
+              "number": "458"
+            },
+            "en": {
+              "rawCode": "ذكا-458",
+              "normalizedCode": "AI-458",
+              "prefix": "AI",
+              "number": "458"
+            }
+          },
+          "name": "Selected Topics in AI",
+          "name_ar": "مواضيع مختارة في الذكاء الاصطناعي",
+          "hours": 3,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "ai_elective",
+          "prerequisites": [
+            {
+              "code": "AI-270"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "ذكا-459",
+              "normalizedCode": "ذكا-459",
+              "prefix": "ذكا",
+              "number": "459"
+            },
+            "en": {
+              "rawCode": "ذكا-459",
+              "normalizedCode": "AI-459",
+              "prefix": "AI",
+              "number": "459"
+            }
+          },
+          "name": "AI Programming Technologies",
+          "name_ar": "تقنيات برمجة الذكاء الاصطناعي",
+          "hours": 3,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "ai_elective",
+          "prerequisites": [
+            {
+              "code": "AI-270"
+            }
+          ],
+          "sections": []
+        }
+      ]
+    },
+    {
+      "level_id": 8,
+      "level_label": "الثامن",
+      "courses": [
+        {
+          "code": {
+            "ar": {
+              "rawCode": "ذكا-475",
+              "normalizedCode": "ذكا-475",
+              "prefix": "ذكا",
+              "number": "475"
+            },
+            "en": {
+              "rawCode": "ذكا-475",
+              "normalizedCode": "AI-475",
+              "prefix": "AI",
+              "number": "475"
+            }
+          },
+          "name": "Robotics and Autonomous Systems",
+          "name_ar": "الروبوتات والأنظمة المستقلة",
+          "hours": 4,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "AI-270"
+            }
+          ],
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "خلق-303",
+              "normalizedCode": "خلق-303",
+              "prefix": "خلق",
+              "number": "303"
+            },
+            "en": {
+              "rawCode": "خلق-303",
+              "normalizedCode": "ETHC-303",
+              "prefix": "ETHC",
+              "number": "303"
+            }
+          },
+          "name": "Ethical and Social Aspects of Computer",
+          "name_ar": "الجوانب الأخلاقية والاجتماعية في الحاسب",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "ذكا-xxx",
+              "normalizedCode": "ذكا-xxx",
+              "prefix": "ذكا",
+              "number": "xxx"
+            },
+            "en": {
+              "rawCode": "ذكا-xxx",
+              "normalizedCode": "AI-XXX",
+              "prefix": "AI",
+              "number": "xxx"
+            }
+          },
+          "name": "AI Elective 2",
+          "name_ar": "ذكاء اختياري 2",
+          "hours": 3,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "ai_elective",
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "ذكا-xxx",
+              "normalizedCode": "ذكا-xxx",
+              "prefix": "ذكا",
+              "number": "xxx"
+            },
+            "en": {
+              "rawCode": "ذكا-xxx",
+              "normalizedCode": "AI-XXX",
+              "prefix": "AI",
+              "number": "xxx"
+            }
+          },
+          "name": "AI Elective 3",
+          "name_ar": "ذكاء اختياري 3",
+          "hours": 3,
+          "type": "إختياري",
+          "completed": false,
+          "isElective": true,
+          "electiveGroup": "ai_elective",
+          "prerequisites": null,
+          "sections": []
+        },
+        {
+          "code": {
+            "ar": {
+              "rawCode": "ذكا-499",
+              "normalizedCode": "ذكا-499",
+              "prefix": "ذكا",
+              "number": "499"
+            },
+            "en": {
+              "rawCode": "ذكا-499",
+              "normalizedCode": "AI-499",
+              "prefix": "AI",
+              "number": "499"
+            }
+          },
+          "name": "Senior Project II",
+          "name_ar": "مشروع تخرج 2",
+          "hours": 3,
+          "type": "إجباري",
+          "completed": false,
+          "isElective": false,
+          "prerequisites": [
+            {
+              "code": "AI-498"
+            }
+          ],
+          "sections": []
+        }
+      ]
+    }
+  ]
+}
