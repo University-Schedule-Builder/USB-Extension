@@ -2,8 +2,8 @@
 
 <div align="center">
 
-<img src="./docs/media/usb-wordmark-light.png#gh-light-mode-only" style="max-width: 320px; width: 100%;" alt="USB — University Schedule Builder">
-<img src="./docs/media/usb-wordmark-dark.png#gh-dark-mode-only" style="max-width: 320px; width: 100%;" alt="USB — University Schedule Builder">
+<img src="./docs/media/usb-wordmark-light.png#gh-light-mode-only" style="max-width: 320px; width: 40%;" alt="USB — University Schedule Builder">
+<img src="./docs/media/usb-wordmark-dark.png#gh-dark-mode-only" style="max-width: 320px; width: 40%;" alt="USB — University Schedule Builder">
 
 ### 🛠️ رتّب جدولك الأكاديمي بكل سهولة!
 
