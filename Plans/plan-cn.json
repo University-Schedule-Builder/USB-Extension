@@ -223,12 +223,14 @@
           "prerequisites": [
             {
               "code": "MATH-101"
-            },
+            }
+          ],
+          "sections": [],
+          "corequisites": [
             {
               "code": "PHYS-103"
             }
-          ],
-          "sections": []
+          ]
         },
         {
           "code": {
@@ -254,13 +256,15 @@
           "prerequisites": [
             {
               "code": "MATH-101"
-            },
-            {
-              "code": "PHYS-101"
             }
           ],
           "sections": [],
-          "isLab": true
+          "isLab": true,
+          "corequisites": [
+            {
+              "code": "PHYS-101"
+            }
+          ]
         },
         {
           "code": {
@@ -368,12 +372,14 @@
           "prerequisites": [
             {
               "code": "PHYS-101"
-            },
+            }
+          ],
+          "sections": [],
+          "corequisites": [
             {
               "code": "PHYS-203"
             }
-          ],
-          "sections": []
+          ]
         },
         {
           "code": {
@@ -396,13 +402,14 @@
           "type": "إجباري",
           "completed": false,
           "isElective": false,
-          "prerequisites": [
+          "prerequisites": null,
+          "sections": [],
+          "isLab": true,
+          "corequisites": [
             {
               "code": "PHYS-202"
             }
-          ],
-          "sections": [],
-          "isLab": true
+          ]
         },
         {
           "code": {
@@ -745,7 +752,12 @@
               "code": "PHYS-202"
             }
           ],
-          "sections": []
+          "sections": [],
+          "corequisites": [
+            {
+              "code": "EE-206"
+            }
+          ]
         },
         {
           "code": {
@@ -864,12 +876,14 @@
           "prerequisites": [
             {
               "code": "PHYS-202"
-            },
+            }
+          ],
+          "sections": [],
+          "corequisites": [
             {
               "code": "COE-203"
             }
-          ],
-          "sections": []
+          ]
         },
         {
           "code": {
@@ -895,13 +909,15 @@
           "prerequisites": [
             {
               "code": "PHYS-202"
-            },
-            {
-              "code": "COE-202"
             }
           ],
           "sections": [],
-          "isLab": true
+          "isLab": true,
+          "corequisites": [
+            {
+              "code": "COE-202"
+            }
+          ]
         },
         {
           "code": {
@@ -952,13 +968,14 @@
           "type": "إجباري",
           "completed": false,
           "isElective": false,
-          "prerequisites": [
+          "prerequisites": null,
+          "sections": [],
+          "isLab": true,
+          "corequisites": [
             {
               "code": "EE-202"
             }
-          ],
-          "sections": [],
-          "isLab": true
+          ]
         },
         {
           "code": {
@@ -1075,12 +1092,14 @@
           "prerequisites": [
             {
               "code": "COE-202"
-            },
+            }
+          ],
+          "sections": [],
+          "corequisites": [
             {
               "code": "COE-205"
             }
-          ],
-          "sections": []
+          ]
         },
         {
           "code": {
@@ -1106,13 +1125,15 @@
           "prerequisites": [
             {
               "code": "COE-202"
-            },
-            {
-              "code": "COE-204"
             }
           ],
           "sections": [],
-          "isLab": true
+          "isLab": true,
+          "corequisites": [
+            {
+              "code": "COE-204"
+            }
+          ]
         },
         {
           "code": {
@@ -1168,7 +1189,12 @@
               "code": "EE-202"
             }
           ],
-          "sections": []
+          "sections": [],
+          "corequisites": [
+            {
+              "code": "EE-221"
+            }
+          ]
         },
         {
           "code": {
@@ -1396,13 +1422,14 @@
           "type": "إجباري",
           "completed": false,
           "isElective": false,
-          "prerequisites": [
+          "prerequisites": null,
+          "sections": [],
+          "isLab": true,
+          "corequisites": [
             {
               "code": "EE-220"
             }
-          ],
-          "sections": [],
-          "isLab": true
+          ]
         },
         {
           "code": {
