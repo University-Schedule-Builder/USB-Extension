@@ -223,12 +223,14 @@
           "prerequisites": [
             {
               "code": "MATH-101"
-            },
+            }
+          ],
+          "sections": [],
+          "corequisites": [
             {
               "code": "PHYS-103"
             }
-          ],
-          "sections": []
+          ]
         },
         {
           "code": {
@@ -254,13 +256,15 @@
           "prerequisites": [
             {
               "code": "MATH-101"
-            },
-            {
-              "code": "PHYS-101"
             }
           ],
           "sections": [],
-          "isLab": true
+          "isLab": true,
+          "corequisites": [
+            {
+              "code": "PHYS-101"
+            }
+          ]
         },
         {
           "code": {
@@ -370,7 +374,12 @@
               "code": "PHYS-101"
             }
           ],
-          "sections": []
+          "sections": [],
+          "corequisites": [
+            {
+              "code": "PHYS-203"
+            }
+          ]
         },
         {
           "code": {
@@ -396,13 +405,15 @@
           "prerequisites": [
             {
               "code": "MATH-101"
-            },
-            {
-              "code": "PHYS-202"
             }
           ],
           "sections": [],
-          "isLab": true
+          "isLab": true,
+          "corequisites": [
+            {
+              "code": "PHYS-202"
+            }
+          ]
         },
         {
           "code": {
@@ -1298,7 +1309,12 @@
               "code": "IE-331"
             }
           ],
-          "sections": []
+          "sections": [],
+          "corequisites": [
+            {
+              "code": "IE-352"
+            }
+          ]
         },
         {
           "code": {
@@ -1329,7 +1345,12 @@
               "code": "EE-209"
             }
           ],
-          "sections": []
+          "sections": [],
+          "corequisites": [
+            {
+              "code": "IE-334"
+            }
+          ]
         },
         {
           "code": {

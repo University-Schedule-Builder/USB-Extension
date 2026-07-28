@@ -240,7 +240,12 @@
               "code": "MATH-101"
             }
           ],
-          "sections": []
+          "sections": [],
+          "corequisites": [
+            {
+              "code": "PHYS-103"
+            }
+          ]
         },
         {
           "code": {
@@ -266,13 +271,15 @@
           "prerequisites": [
             {
               "code": "MATH-101"
-            },
-            {
-              "code": "PHYS-101"
             }
           ],
           "sections": [],
-          "isLab": true
+          "isLab": true,
+          "corequisites": [
+            {
+              "code": "PHYS-101"
+            }
+          ]
         },
         {
           "code": {
