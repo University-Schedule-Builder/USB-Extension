@@ -3,7 +3,8 @@
   "gender": 0,
   "major": "Cyber Security",
   "major_ar": "الأمن السيبراني",
-  "totalHours": 131,
+  "totalHours": 134,
+  "verification": { "status": "unverified" },
   "electiveGroups": {
     "islamic": {
       "label": "اختياري إسلامي",
@@ -1136,13 +1137,13 @@
         {
           "code": {
             "ar": {
-              "rawCode": "أمن-211",
-              "normalizedCode": "أمن-211",
+              "rawCode": "أمن-313",
+              "normalizedCode": "أمن-313",
               "prefix": "أمن",
-              "number": "211"
+              "number": "313"
             },
             "en": {
-              "rawCode": "أمن-211",
+              "rawCode": "أمن-313",
               "normalizedCode": "CYS-313",
               "prefix": "CYS",
               "number": "313"
@@ -1164,15 +1165,15 @@
         {
           "code": {
             "ar": {
-              "rawCode": "عال-498",
-              "normalizedCode": "عال-498",
-              "prefix": "عال",
+              "rawCode": "أمن-498",
+              "normalizedCode": "أمن-498",
+              "prefix": "أمن",
               "number": "498"
             },
             "en": {
-              "rawCode": "عال-498",
-              "normalizedCode": "CS-498",
-              "prefix": "CS",
+              "rawCode": "أمن-498",
+              "normalizedCode": "CYS-498",
+              "prefix": "CYS",
               "number": "498"
             }
           },
@@ -1192,13 +1193,13 @@
         {
           "code": {
             "ar": {
-              "rawCode": "أمن-212",
-              "normalizedCode": "أمن-212",
+              "rawCode": "أمن-413",
+              "normalizedCode": "أمن-413",
               "prefix": "أمن",
-              "number": "212"
+              "number": "413"
             },
             "en": {
-              "rawCode": "أمن-212",
+              "rawCode": "أمن-413",
               "normalizedCode": "CYS-413",
               "prefix": "CYS",
               "number": "413"
@@ -1245,10 +1246,10 @@
         {
           "code": {
             "ar": {
-              "rawCode": "أمن-301",
-              "normalizedCode": "أمن-301",
+              "rawCode": "أمن-414",
+              "normalizedCode": "أمن-414",
               "prefix": "أمن",
-              "number": "301"
+              "number": "414"
             },
             "en": {
               "rawCode": "أمن-301",
@@ -1263,11 +1264,7 @@
           "type": "إجباري",
           "completed": false,
           "isElective": false,
-          "prerequisites": [
-            {
-              "code": "CYS-301"
-            }
-          ],
+          "prerequisites": null,
           "sections": []
         },
         {
@@ -1455,13 +1452,13 @@
         {
           "code": {
             "ar": {
-              "rawCode": "أمن-414",
-              "normalizedCode": "أمن-414",
+              "rawCode": "أمن-415",
+              "normalizedCode": "أمن-415",
               "prefix": "أمن",
-              "number": "414"
+              "number": "415"
             },
             "en": {
-              "rawCode": "أمن-414",
+              "rawCode": "أمن-415",
               "normalizedCode": "CYS-415",
               "prefix": "CYS",
               "number": "415"
@@ -1483,13 +1480,13 @@
         {
           "code": {
             "ar": {
-              "rawCode": "أمن-498",
-              "normalizedCode": "أمن-498",
+              "rawCode": "أمن-499",
+              "normalizedCode": "أمن-499",
               "prefix": "أمن",
-              "number": "498"
+              "number": "499"
             },
             "en": {
-              "rawCode": "أمن-498",
+              "rawCode": "أمن-499",
               "normalizedCode": "CYS-499",
               "prefix": "CYS",
               "number": "499"

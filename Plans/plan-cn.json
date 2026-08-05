@@ -3,7 +3,8 @@
   "gender": 0,
   "major": "Network Engineering",
   "major_ar": "هندسة الشبكات",
-  "totalHours": 163,
+  "totalHours": 164,
+  "verification": { "status": "unverified" },
   "electiveGroups": {
     "islamic": {
       "label": "متطلب إسلامي اختياري",

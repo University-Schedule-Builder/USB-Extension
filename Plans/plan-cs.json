@@ -4,6 +4,7 @@
   "major": "Computer Science",
   "major_ar": "علوم الحاسب",
   "totalHours": 134,
+  "verification": { "status": "unverified" },
   "electiveGroups": {
     "islamic": {
       "label": "اختياري إسلامي",
