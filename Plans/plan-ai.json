@@ -4,6 +4,7 @@
   "major": "Artificial Intelligence Program",
   "major_ar": "برنامج الذكاء الاصطناعي",
   "totalHours": 134,
+  "verification": { "status": "unverified" },
   "electiveGroups": {
     "islamic": {
       "label": "اختياري إسلامي",

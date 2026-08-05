@@ -4,6 +4,7 @@
   "major": "Computer Engineering Program",
   "major_ar": "برنامج هندسة الحاسب",
   "totalHours": 164,
+  "verification": { "status": "unverified" },
   "electiveGroups": {
     "islamic": {
       "label": "اختياري إسلامي",

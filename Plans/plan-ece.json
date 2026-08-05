@@ -4,6 +4,7 @@
   "major": "Electronics and Communications Engineering",
   "major_ar": "هندسة الإلكترونيات والاتصالات",
   "totalHours": 164,
+  "verification": { "status": "unverified" },
   "electiveGroups": {
     "islamic": {
       "label": "متطلب إسلامي اختياري",

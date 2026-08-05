@@ -1,14 +1,14 @@
 {
-  "version": 2,
+  "version": 3,
   "plans": {
-    "ai": { "version": 2, "updatedAt": "2026-07-28" },
-    "ce": { "version": 2, "updatedAt": "2026-07-28" },
-    "cn": { "version": 2, "updatedAt": "2026-07-28" },
-    "cs": { "version": 2, "updatedAt": "2026-07-28" },
-    "cys": { "version": 2, "updatedAt": "2026-07-28" },
-    "ece": { "version": 2, "updatedAt": "2026-07-28" },
-    "ie": { "version": 2, "updatedAt": "2026-07-28" },
-    "ro": { "version": 2, "updatedAt": "2026-07-28" },
-    "se": { "version": 2, "updatedAt": "2026-07-28" }
+    "ai": { "version": 3, "updatedAt": "2026-08-05" },
+    "ce": { "version": 3, "updatedAt": "2026-08-05" },
+    "cn": { "version": 3, "updatedAt": "2026-08-05" },
+    "cs": { "version": 3, "updatedAt": "2026-08-05" },
+    "cys": { "version": 3, "updatedAt": "2026-08-05" },
+    "ece": { "version": 3, "updatedAt": "2026-08-05" },
+    "ie": { "version": 3, "updatedAt": "2026-08-05" },
+    "ro": { "version": 3, "updatedAt": "2026-08-05" },
+    "se": { "version": 3, "updatedAt": "2026-08-05" }
   }
 }

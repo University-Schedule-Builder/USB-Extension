@@ -3,7 +3,8 @@
   "gender": 0,
   "major": "Industrial Engineering Program",
   "major_ar": "برنامج الهندسة الصناعية",
-  "totalHours": 165,
+  "totalHours": 161,
+  "verification": { "status": "unverified" },
   "electiveGroups": {
     "islamic": {
       "label": "اختياري إسلامي",

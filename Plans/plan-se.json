@@ -4,6 +4,7 @@
   "major": "Computer Science Program – Software engineering",
   "major_ar": "برنامج علوم الحاسب – هندسة برمجيات",
   "totalHours": 161,
+  "verification": { "status": "unverified" },
   "electiveGroups": {
     "islamic": {
       "label": "اختياري إسلامي",

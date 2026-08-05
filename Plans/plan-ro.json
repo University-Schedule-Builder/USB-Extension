@@ -3,7 +3,8 @@
   "gender": 0,
   "major": "Computer Engineering Program – Robots Engineering",
   "major_ar": "برنامج هندسة الحاسب – هندسة الروبوتات",
-  "totalHours": 160,
+  "totalHours": 164,
+  "verification": { "status": "unverified" },
   "electiveGroups": {
     "islamic": {
       "label": "اختياري إسلامي",
