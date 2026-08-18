@@ -758,11 +758,7 @@
             }
           ],
           "sections": [],
-          "corequisites": [
-            {
-              "code": "EE-206"
-            }
-          ]
+          "corequisites": []
         },
         {
           "code": {
@@ -976,11 +972,7 @@
           "prerequisites": null,
           "sections": [],
           "isLab": true,
-          "corequisites": [
-            {
-              "code": "EE-202"
-            }
-          ]
+          "corequisites": []
         },
         {
           "code": {
@@ -1195,11 +1187,7 @@
             }
           ],
           "sections": [],
-          "corequisites": [
-            {
-              "code": "EE-221"
-            }
-          ]
+          "corequisites": []
         },
         {
           "code": {
@@ -1427,14 +1415,12 @@
           "type": "إجباري",
           "completed": false,
           "isElective": false,
-          "prerequisites": null,
+          "prerequisites": [{
+              "code": "EE-220"
+            }],
           "sections": [],
           "isLab": true,
-          "corequisites": [
-            {
-              "code": "EE-220"
-            }
-          ]
+          "corequisites": []
         },
         {
           "code": {
