@@ -969,7 +969,11 @@
           "type": "إجباري",
           "completed": false,
           "isElective": false,
-          "prerequisites": null,
+          "prerequisites": [
+            {
+              "code": "EE-202"
+            }
+          ],
           "sections": [],
           "isLab": true,
           "corequisites": []
