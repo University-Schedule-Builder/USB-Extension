@@ -3,12 +3,12 @@
   "plans": {
     "ai": { "version": 3, "updatedAt": "2026-08-05" },
     "ce": { "version": 5, "updatedAt": "2026-08-18" },
-    "cn": { "version": 3, "updatedAt": "2026-08-05" },
+    "cn": { "version": 4, "updatedAt": "2026-08-20" },
     "cs": { "version": 3, "updatedAt": "2026-08-05" },
     "cys": { "version": 3, "updatedAt": "2026-08-05" },
     "ece": { "version": 3, "updatedAt": "2026-08-05" },
     "ie": { "version": 3, "updatedAt": "2026-08-05" },
-    "ro": { "version": 3, "updatedAt": "2026-08-05" },
+    "ro": { "version": 4, "updatedAt": "2026-08-20" },
     "se": { "version": 3, "updatedAt": "2026-08-05" }
   }
 }
